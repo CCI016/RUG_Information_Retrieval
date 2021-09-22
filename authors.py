@@ -2,7 +2,6 @@ from scholarly import scholarly
 from serpapi import GoogleSearch
 from tkinter import *
 from tkinter import ttk
-import pprint
 
 # INITIALIZING GUI
 root = Tk()
@@ -10,6 +9,10 @@ root.geometry('1240x768')
 root.title('Google Scholar Author Articles Search')
 root.configure(bg='#D6ADB4')
 style = ttk.Style()
+
+#Parameters for pagination
+page_param = 0
+start_param = 0
 
 # Function triggered by the option menu from the guy, to select the user choice and save it for further use
 def option_changed(option) :
@@ -23,8 +26,10 @@ def option_changed(option) :
 def search_button_command():
 
   global auth_search
-  author_name = auth_search.get()
+  global page_param
+  global start_param
 
+  author_name = auth_search.get()
   #Query to retrieve information from Google Scholar for the input author
   search_query = scholarly.search_author(author_name)
   author = scholarly.fill(next(search_query))
@@ -33,12 +38,15 @@ def search_button_command():
   author_id = author['scholar_id']
 
   # Parameters for performing the search through SerpAPI
+  page_param = page_param + 1
+  if page_param > 1:
+    start_param = start_param + 20
   serp_params = {
     "engine": "google_scholar_author",
     "hl": "en",
     "author_id": author_id,
-    "num": "10",  #Number of return results after the search (SerpAPI max = 100)
-    "start": "0",  #Result offset (0 = first page of results, 20 = second page, 40 = third and so on)
+    "num": "20",  #Number of return results after the search (SerpAPI max = 100)
+    "start": start_param,  #Result offset (0 = first page of results, 20 = second page, 40 = third and so on)
     "api_key": "8007fc0df66260445ed4fda679c1ae63511e60bb0b13e6baa9b4b5a46acffe0b"  # Here input your OWN SerpAPI key
   }
 
@@ -51,21 +59,23 @@ def search_button_command():
   final_data = []
 
   # Loop to traverse the list and extract all the articles with their respective title, authors, year and citation and save them into a separate list of tuples.
-  for i in range(0, int(serp_params['num'])) :
+  for i in range(0, len(x[3])) :
+    if (x[3][i]['cited_by']['value'] == None):
+      x[3][i]['cited_by']['value'] = 0
     data_tuple = (i+1, x[3][i]['title'], x[3][i]['authors'], x[3][i]['year'], x[3][i]['cited_by']['value'])
     final_data.append(data_tuple)
 
-  # User will select whether he would like to sort the information by year or by citations index. In case of year - index = 3, in case of citations - index = 4.
+  # User will select whether he would like to sort the information by year or by citations. In case of year - param = 3, in case of citations - param = 4.
   final_data = sorted(final_data, key=lambda year: year[param])
 
   # Section that displays on screen the total number of citations and calls the function to make the table with publications
   citations_num_total = StringVar()
   citations_num_total.set("Total number of citations of this author : " + str(x[4]['table'][0]['citations']['all']))
-  Label(root,textvariable=citations_num_total).place(x=50,y=600)
+  Label(root,textvariable=citations_num_total).place(x=50,y=700)
   create_table(final_data, len(final_data))
 
 
-# GUI SECTION contains all the elements from the GUI
+# GUI SECTION - contains all the elements from the GUI
 author_label = Label(root,text="Search Author", bg="#B2CBEA").place(x=500,y=25)
 auth_search = Entry(root, width = 28)
 auth_search.focus_set()
@@ -81,11 +91,13 @@ chosen_sort.place(x=600,y=55)
 
 search_button = Button(root, text = "Search for Author", command = search_button_command, bg="#FFDF32")
 search_button.place(x=550,y=95)
+page_button = Button(root, text="Next Page", command = search_button_command)
+page_button.place(x=1000,y=700)
 
 # Function that creates the table with the 
 def create_table(data, table_height):
   table = ttk.Treeview(root, column=("No", "Publication Title", "Authors", "Year", "Citations"), show='headings', height= table_height)
-  table.column("# 1", anchor=CENTER,width=20)
+  table.column("# 1", anchor=CENTER,width=25)
   table.heading("# 1", text="No")
   table.column("# 2", anchor=W,width=500)
   table.heading("# 2", text="Publication Title")
@@ -96,14 +108,14 @@ def create_table(data, table_height):
   table.column("# 5", anchor=CENTER,width=55)
   table.heading("# 5", text="Citations")
 
-  var1 = len(data)
-  for i in range(0, var1):
+  data_size = len(data)
+
+  for i in range(0, data_size):
     x = list(data[i])
     x[0] = i + 1
     data[i] = tuple(x)
     table.insert('','end',text='1', values=data[i])
 
   table.place(x=100,y=160)
-
 
 root.mainloop()
