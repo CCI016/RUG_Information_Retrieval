@@ -30,19 +30,26 @@ $ pip install tk
 From the users perspective : 
 
 In the Graphical User Interface we have an input field, a menu with two choices and a button.
-The user should input the name of the Author he is interested in, then choose one of the two variants for sorting the results, and afterwards press on the button : "Search for Author". After processing the results appear in the same window on user's screen.
+The user should input the name of the Author he is interested in, then choose one of the two variants for sorting the results, and afterwards press on the button : "Search for Author". After processing, the results will appear in the same window on user's screen. User has option to generate another page of results by clicking the button : "Next Page".
 
 Input:
+![Step1](https://user-images.githubusercontent.com/61204251/134287995-28bc255c-192a-4785-ace6-aa038e03ec80.png)
 
-![Step2](https://user-images.githubusercontent.com/61204251/134193130-80bc18b0-928c-4796-949e-c059253c5c4e.png)
+Selecting the filter by which means we will sort the result : 
+![Step2](https://user-images.githubusercontent.com/61204251/134288021-4b0484a9-ef6d-477a-9b42-afa38f4d3dbb.png)
 
 Result if sorted by Year of publication:
+![YearSorted](https://user-images.githubusercontent.com/61204251/134288255-4331178b-4cf5-4b7a-b134-41ce71308aee.png)
 
-![YearSorted](https://user-images.githubusercontent.com/61204251/134193305-155c98cd-2318-4b28-910c-ccafcf217cda.png)
 
 or by number of citations :
+![CitSorted](https://user-images.githubusercontent.com/61204251/134288034-9f4ecd31-90a6-4fac-bb38-069df1e1041e.png)
 
-![CitSorted](https://user-images.githubusercontent.com/61204251/134193343-d92e404e-d496-4fa3-99ea-4f9bc56e46ee.png)
+The first page of results :
+![EinsteinPage1](https://user-images.githubusercontent.com/61204251/134288045-e6af8c76-2791-4b6a-86e7-4144b42a8046.png)
+
+After clicking the button "Next page" :
+![EinsteinPage2](https://user-images.githubusercontent.com/61204251/134288052-90109902-9df9-46d3-82ca-8a58be1175b1.png)
 
 General workflow of the application :
 
