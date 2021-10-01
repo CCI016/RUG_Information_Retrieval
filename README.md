@@ -29,28 +29,37 @@ $ pip install tk
 
 From the users perspective : 
 
-In the Graphical User Interface we have an input field, a menu with two choices and a button.
-The user should input the name of the Author he is interested in, then choose one of the two variants for sorting the results, and afterwards press on the button : "Search for Author". After processing, the results will appear in the same window on user's screen. User has option to generate another page of results by clicking the button : "Next Page".
-
-Input:
-![Step1](https://user-images.githubusercontent.com/61204251/134287995-28bc255c-192a-4785-ace6-aa038e03ec80.png)
-
-Selecting the filter by which means we will sort the result : 
-![Step2](https://user-images.githubusercontent.com/61204251/134288021-4b0484a9-ef6d-477a-9b42-afa38f4d3dbb.png)
-
-Result if sorted by Year of publication:
-![YearSorted](https://user-images.githubusercontent.com/61204251/134288255-4331178b-4cf5-4b7a-b134-41ce71308aee.png)
-
-
-or by number of citations :
-![CitSorted](https://user-images.githubusercontent.com/61204251/134288034-9f4ecd31-90a6-4fac-bb38-069df1e1041e.png)
-
-The first page of results :
-![EinsteinPage1](https://user-images.githubusercontent.com/61204251/134288045-e6af8c76-2791-4b6a-86e7-4144b42a8046.png)
-
-After clicking the button "Next page" :
-![EinsteinPage2](https://user-images.githubusercontent.com/61204251/134288052-90109902-9df9-46d3-82ca-8a58be1175b1.png)
+In the Graphical User Interface we have an input field, a menu with one or two choices and a button.
+The user should input the name of the Author he is interested in searching, then if available input an interval in the papers user is interested in viewing, for example [1,5] meaning user wants to view papers with index 1 and 5, or [1-5] meaning user wants to view papers with index 1,2,3,4 and 5. Afterwards user will press on the button to select his choice. After processing, the results will appear in the same window on user's screen. 
 
 General workflow of the application :
 
-We receive a string with the name of Author input by the user, this string is then used as a query parameter to the scholarly package. As the output from scholarly we opt to extract the unique author ID on Google Scholar platform. This ID is then used as a parameter in performing the search through SerpAPI. The output following this search is then parsed and inserted in a special list of tuples, where each tuple consists of Article's title, author's, year of publication and number of citations. Depending on the user choice, this list is sorted by the given parameter. As the last step, the list is used to draw the final final table which is displayed to the user as the output of the application.
+Our application is divided into three different files, each corresponds to the action the user wants to perform. The first action, described in the first part of the assignment is retrieving the histograms of the publication year's and publishers of the articles for the input author. In order to do this, the user must run the file **publications.py**. The second file **citing.py** is for the actions described in the second part of assignment, what it does it is creating three histograms for all the papers citing the selected papers of the author, the histograms contains the journal or the conference name where the article appears, the publication years of the articles, and the publisher of the articles citing the indicated article of the author that was input by the user. Finally, the third file **selfcit.py** calculate the self citations for the indicated article of the input author by the user, meaning that if the author of the article cited his article himself, it will be counted as a self citation.
+
+Below some screenshots will be attached :
+
+
+
+
+PART 1 ( Histograms of publication year's and publishers of the author's articles)
+
+![assignment2_part1_full](https://user-images.githubusercontent.com/61204251/135566581-2ad9aa26-316c-4616-ab2a-ccfb308b81f9.PNG)
+
+
+PART 2 ( Histograms for the citing papers of the indicated paper of the author)
+Indicated only the index numbers of the author's articles :
+
+![assignment2_part2_numbers](https://user-images.githubusercontent.com/61204251/135566656-bd6b1001-6461-4257-aeb2-07c45092b57c.PNG)
+
+Indicating an interval of indexes of the author's articles :
+![assignment2_part2_interval](https://user-images.githubusercontent.com/61204251/135566687-0a855cc0-a3ce-4139-bf5e-6614a730fd2e.PNG)
+
+PART 3 (Self-citations of the author's articles) :
+
+![assignment2_part3](https://user-images.githubusercontent.com/61204251/135566718-c673cf35-1e91-4f4b-9fb5-83cafc005730.PNG)
+
+And now by interval :
+
+![assignment2_part3_interval](https://user-images.githubusercontent.com/61204251/135566732-053f2ab7-c8e4-40f8-a250-ae454c2b5c04.PNG)
+
+
