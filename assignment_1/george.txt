@@ -1,0 +1,1803 @@
+ 'name': 'George Azzopardi',
+ 'publications': [{'author_pub_id': '6QnooDkAAAAJ:5nxA0vEk-isC',
+                   'bib': {'pub_year': '2015',
+                           'title': 'Trainable COSFIRE filters for vessel '
+                                    'delineation with application to retinal '
+                                    'images'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 543,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:IjCSPb-OGe4C',
+                   'bib': {'pub_year': '2013',
+                           'title': 'Trainable COSFIRE filters for keypoint '
+                                    'detection and pattern recognition'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 128,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:qjMakFHDy7sC',
+                   'bib': {'pub_year': '2012',
+                           'title': 'A CORF computational model of a simple '
+                                    'cell that relies on LGN input outperforms '
+                                    'the Gabor function model'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 115,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:W7OEmFMy1HYC',
+                   'bib': {'pub_year': '2013',
+                           'title': 'Automatic detection of vascular '
+                                    'bifurcations in segmented retinal images '
+                                    'using trainable COSFIRE filters'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 91,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:7PzlFSSx8tAC',
+                   'bib': {'pub_year': '2016',
+                           'title': 'Supervised vessel delineation in retinal '
+                                    'fundus images with the automatic '
+                                    'selection of B-COSFIRE filters'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 75,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:qUcmZB5y_30C',
+                   'bib': {'pub_year': '2017',
+                           'title': 'Machine-vision-based identification of '
+                                    'broken inserts in edge profile milling '
+                                    'heads'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 46,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:UebtZRa9Y70C',
+                   'bib': {'pub_year': '2014',
+                           'title': 'A push-pull CORF model of a simple cell '
+                                    'with antiphase inhibition improves SNR '
+                                    'and contour detection'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 42,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:hC7cP41nSMkC',
+                   'bib': {'pub_year': '2017',
+                           'title': 'Color-blob-based COSFIRE filters for '
+                                    'object recognition'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 38,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:u5HHmVD_uO8C',
+                   'bib': {'pub_year': '2011',
+                           'title': 'Detection of retinal vascular '
+                                    'bifurcations by trainable V4-like '
+                                    'filters'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 38,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:bEWYMUwI8FkC',
+                   'bib': {'pub_year': '2018',
+                           'title': 'Fusion of domain-specific and trainable '
+                                    'features for gender recognition from face '
+                                    'images'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 36,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:rO6llkc54NcC',
+                   'bib': {'pub_year': '2020',
+                           'title': 'Detection of illicit accounts over the '
+                                    'Ethereum blockchain'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 32,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:Se3iqnhoufwC',
+                   'bib': {'pub_year': '2014',
+                           'title': 'Ventral-stream-like shape representation: '
+                                    'from pixel intensity values to trainable '
+                                    'object-selective COSFIRE models'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 32,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:mB3voiENLucC',
+                   'bib': {'pub_year': '2016',
+                           'title': 'Gender recognition from face images with '
+                                    'trainable COSFIRE filters'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 31,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:YOwf2qJgpHMC',
+                   'bib': {'pub_year': '2015',
+                           'title': 'Multiscale blood vessel delineation using '
+                                    'B-COSFIRE filters'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 31,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:L8Ckcad2t8MC',
+                   'bib': {'pub_year': '2016',
+                           'title': 'Gender recognition from face images using '
+                                    'a fusion of svm classifiers'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 29,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:qxL8FJ1GzNcC',
+                   'bib': {'pub_year': '2015',
+                           'title': 'Unsupervised delineation of the vessel '
+                                    'tree in retinal fundus images'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 28,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:4OULZ7Gr8RgC',
+                   'bib': {'pub_year': '2020',
+                           'title': 'Elderly fall detection systems: A '
+                                    'literature survey'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 23,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:Zph67rFs4hoC',
+                   'bib': {'pub_year': '2015',
+                           'title': 'Cutting edge localisation in an edge '
+                                    'profile milling head'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 19,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:R3hNpaxXUhUC',
+                   'bib': {'pub_year': '2017',
+                           'title': 'Detection of curved lines with B-COSFIRE '
+                                    'filters: A case study on crack '
+                                    'delineation'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 18,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:JV2RwH3_ST0C',
+                   'bib': {'pub_year': '2018',
+                           'title': 'The Blockchain of Things, Beyond Bitcoin: '
+                                    'A Systematic Review'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 16,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:2P1L_qKh6hAC',
+                   'bib': {'pub_year': '2019',
+                           'title': 'Robust Inhibition-augmented Operator for '
+                                    'Delineation of Curvilinear Structures'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 14,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:_Qo2XoVZTnwC',
+                   'bib': {'pub_year': '2017',
+                           'title': 'Fast gender recognition in videos using a '
+                                    'novel descriptor based on the gradient '
+                                    'magnitudes of facial landmarks'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 14,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:M3ejUd6NZC8C',
+                   'bib': {'pub_year': '2015',
+                           'title': 'Incremental concept learning with few '
+                                    'training examples and hierarchical '
+                                    'classification'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 14,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:kNdYIx-mwKoC',
+                   'bib': {'pub_year': '2015',
+                           'title': 'Interactive detection of incrementally '
+                                    'learned concepts in images with ranking '
+                                    'and semantic query interpretation'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 13,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:_FxGoFyzp5QC',
+                   'bib': {'pub_year': '2013',
+                           'title': 'A shape descriptor based on trainable '
+                                    'COSFIRE filters for the recognition of '
+                                    'handwritten digits'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 13,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:u-x6o8ySG0sC',
+                   'bib': {'pub_year': '2006',
+                           'title': 'Offline handwritten signature '
+                                    'verification using Radial Basis Function '
+                                    'neural networks'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 13,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:f2IySw72cVMC',
+                   'bib': {'pub_year': '2018',
+                           'title': 'Automatic Segmentation of Indoor and '
+                                    'Outdoor Scenes from Visual Lifelogging'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 11,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:e5wmG9Sq2KIC',
+                   'bib': {'pub_year': '2017',
+                           'title': 'Identification of milling inserts in situ '
+                                    'based on a versatile machine vision '
+                                    'system'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 11,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:vV6vV6tmYwMC',
+                   'bib': {'pub_year': '2019',
+                           'title': 'Estimation of Muscle Scores of Live Pigs '
+                                    'Using a Kinect Camera'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 10,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:ns9cj8rnVeAC',
+                   'bib': {'pub_year': '2019',
+                           'title': 'Automatic Determination of Vertical '
+                                    'Cup-to-Disc Ratio in Retinal Fundus '
+                                    'Images for Glaucoma Screening'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 10,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:ULOm3_A8WrAC',
+                   'bib': {'pub_year': '2015',
+                           'title': 'Recognition of architectural and '
+                                    'electrical symbols by COSFIRE filters '
+                                    'with inhibition'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 10,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:LkGwnXOMwfcC',
+                   'bib': {'pub_year': '2013',
+                           'title': 'TNO at TRECVID 2013: multimedia event '
+                                    'detection and instance search'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 10,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:4TOpqqG69KYC',
+                   'bib': {'pub_year': '2015',
+                           'title': 'Automatic Differentiation of u-and '
+                                    'n-serrated Patterns in Direct '
+                                    'Immunofluorescence Images'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 9,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:_kc_bZDykSQC',
+                   'bib': {'pub_year': '2015',
+                           'title': 'Filter-Based Approach for Ornamentation '
+                                    'Detection and Recognition in Singing Folk '
+                                    'Music'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 9,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:r0BpntZqJG4C',
+                   'bib': {'pub_year': '2017',
+                           'title': 'A deep learning approach for detecting '
+                                    'and correcting highlights in endoscopic '
+                                    'images'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 8,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:HDshCWvjkbEC',
+                   'bib': {'pub_year': '2016',
+                           'title': 'Increased generalization capability of '
+                                    'trainable cosfire filters with '
+                                    'application to machine vision'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 8,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:zYLM7Y9cAGgC',
+                   'bib': {'pub_year': '2006',
+                           'title': 'How effective are Radial Basis Function '
+                                    'Neural Networks for Offline Handwritten '
+                                    'Signature Verification?'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 8,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:blknAaTinKkC',
+                   'bib': {'pub_year': '2018',
+                           'title': 'Prediction of slaughter age in pigs and '
+                                    'assessment of the predictive value of '
+                                    'phenotypic and genetic information using '
+                                    'random forest'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 7,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:YFjsv_pBGBYC',
+                   'bib': {'pub_year': '2018',
+                           'title': 'Brain-inspired robust delineation '
+                                    'operator'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 7,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:Y0pCki6q_DkC',
+                   'bib': {'pub_year': '2012',
+                           'title': 'Contour detection by CORF operator'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 7,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:HoB7MX3m0LUC',
+                   'bib': {'pub_year': '2019',
+                           'title': 'A Computer Vision Pipeline that Uses '
+                                    'Thermal and RGB Images for the '
+                                    'Recognition of Holstein Cattle'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 6,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:BqipwSGYUEgC',
+                   'bib': {'pub_year': '2018',
+                           'title': 'Gender recognition from face images using '
+                                    'trainable shape and color features'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 6,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:3s1wT3WcHBgC',
+                   'bib': {'pub_year': '2020',
+                           'title': 'U-COSFIRE filters for vessel tortuosity '
+                                    'quantification with application to '
+                                    'automated diagnosis of retinopathy of '
+                                    'prematurity'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 5,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:a0OBvERweLwC',
+                   'bib': {'pub_year': '2020',
+                           'title': 'Assessment and Estimation of Face '
+                                    'Detection Performance Based on Deep '
+                                    'Learning for Forensic Applications'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 5,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:9ZlFYXVOiuMC',
+                   'bib': {'pub_year': '2016',
+                           'title': 'Inhibition-augmented trainable COSFIRE '
+                                    'filters for keypoint detection and object '
+                                    'recognition'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 5,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:g5m5HwL7SMYC',
+                   'bib': {'pub_year': '2019',
+                           'title': 'Age group recognition from face images '
+                                    'using a fusion of CNN-and COSFIRE-based '
+                                    'features'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 3,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:J_g5lzvAfSwC',
+                   'bib': {'pub_year': '2019',
+                           'title': 'Trainable Filters for the Identification '
+                                    'of Anomalies in Cosmogenic Isotope Data'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 3,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:SeFeTyx0c_EC',
+                   'bib': {'pub_year': '2018',
+                           'title': 'Customer Churn Prediction for a Motor '
+                                    'Insurance Company'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 3,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:KlAtU1dfN6UC',
+                   'bib': {'pub_year': '2015',
+                           'title': 'Computer Analysis of Images and Patterns: '
+                                    '16th International Conference, CAIP 2015, '
+                                    'Valletta, Malta, September 2-4, 2015 '
+                                    'Proceedings'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 3,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:4DMP91E08xMC',
+                   'bib': {'pub_year': '2015',
+                           'title': 'Computer Analysis of Images and Patterns: '
+                                    '16th International Conference, CAIP 2015, '
+                                    'Valletta, Malta, September 2-4, 2015, '
+                                    'Proceedings, Part II'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 3,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:d1gkVwhDpl0C',
+                   'bib': {'pub_year': '2009',
+                           'title': 'Variance Ranklets: Orientation-selective '
+                                    'Rank Features for Contrast Modulations.'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 3,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:yD5IFk8b50cC',
+                   'bib': {'pub_year': '2020',
+                           'title': 'A framework for creating deployable smart '
+                                    'contracts for non-fungible tokens on the '
+                                    'Ethereum blockchain'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 2,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:pqnbT2bcN3wC',
+                   'bib': {'pub_year': '2019',
+                           'title': 'An Explainable AI-Based Computer Aided '
+                                    'Detection System for Diabetic Retinopathy '
+                                    'Using Retinal Fundus Images'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 2,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:lSLTfruPkqcC',
+                   'bib': {'pub_year': '2019',
+                           'title': 'Fusion of CNN-and COSFIRE-Based Features '
+                                    'with Application to Gender Recognition '
+                                    'from Face Images'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 2,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:RYcK_YlVTxYC',
+                   'bib': {'pub_year': '2018',
+                           'title': 'Predicting Slaughter Weight in Pigs with '
+                                    'Regression Tree Ensembles.'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 2,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:TFP_iSt0sucC',
+                   'bib': {'pub_year': '2018',
+                           'title': 'Assigning pigs to uniform target weight '
+                                    'groups using machine learning'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 2,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:TQgYirikUcIC',
+                   'bib': {'pub_year': '2017',
+                           'title': 'Inhibition-augmented COSFIRE model of '
+                                    'shape-selective neurons'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 2,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:aqlVkmm33-oC',
+                   'bib': {'pub_year': '2015',
+                           'title': 'Automatic classification of serrated '
+                                    'patterns in direct immunouorescence '
+                                    'images'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 2,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:MXK_kJrjxJIC',
+                   'bib': {'pub_year': '2014',
+                           'title': 'Parametric Nonlinear Regression Models '
+                                    'for Dike Monitoring Systems'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 2,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:8k81kl-MbHgC',
+                   'bib': {'pub_year': '2013',
+                           'title': 'COSFIRE: A Brain-Inspired Approach to '
+                                    'Visual Pattern Recognition'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 2,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:OU6Ihb5iCvQC',
+                   'bib': {'pub_year': '2021',
+                           'title': 'Reinforcement of age estimation in '
+                                    'forensic tools to detect Child Sexual '
+                                    'Exploitation Material'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 1,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:EUQCXRtRnyEC',
+                   'bib': {'pub_year': '2020',
+                           'title': 'Video Camera Identification from Sensor '
+                                    'Pattern Noise with a Constrained ConvNet'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 1,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:zA6iFVUQeVQC',
+                   'bib': {'pub_year': '2020',
+                           'title': 'A robust contour detection operator with '
+                                    'combined push-pull inhibition and '
+                                    'surround suppression'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 1,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:dshw04ExmUIC',
+                   'bib': {'pub_year': '2020',
+                           'title': 'Device-based Image Matching with '
+                                    'Similarity Learning by Convolutional '
+                                    'Neural Networks that Exploit the '
+                                    'Underlying Camera Sensor Pattern Noise'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 1,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:RGFaLdJalmkC',
+                   'bib': {'pub_year': '2019',
+                           'title': 'Identification of possible Δ14C anomalies '
+                                    'since 14 ka BP: A computational '
+                                    'intelligence approach'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 1,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:GnPB-g6toBAC',
+                   'bib': {'pub_year': '2019',
+                           'title': 'Detection of u-serrated patterns in '
+                                    'direct immunofluorescence images of '
+                                    'autoimmune bullous diseases by '
+                                    'inhibition-augmented COSFIRE filters'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 1,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:M3NEmzRMIkIC',
+                   'bib': {'pub_year': '2019',
+                           'title': 'Cooperative and Social Robots: '
+                                    'Understanding Human Activities and '
+                                    'Intentions'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 1,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:NMxIlDl6LWMC',
+                   'bib': {'pub_year': '2018',
+                           'title': 'Automatic ornament localisation, '
+                                    'recognition and expression from music '
+                                    'sheets'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 1,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:hMod-77fHWUC',
+                   'bib': {'pub_year': '2018',
+                           'title': 'Vectorisation of sketches with shadows '
+                                    'and shading using COSFIRE filters'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 1,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:xtRiw3GOFMkC',
+                   'bib': {'pub_year': '2018',
+                           'title': 'Localisation, Recognition and Expression '
+                                    'of Ornaments in Music Scores'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 1,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:dfsIfKJdRG4C',
+                   'bib': {'pub_year': '2016',
+                           'title': 'Side view car detection with hierarchical '
+                                    'COSFIRE filters'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 1,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:hqOjcs7Dif8C',
+                   'bib': {'pub_year': '2014',
+                           'title': 'Vessels delineation in retinal images '
+                                    'using COSFIRE filters'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 1,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:Tyk-4Ss8FVUC',
+                   'bib': {'pub_year': '2012',
+                           'title': 'Detection of retinal vascular '
+                                    'bifurcations by rotation-, scale-and '
+                                    'reflection-invariant COSFIRE filters'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 1,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:Tiz5es2fbqcC',
+                   'bib': {'pub_year': '2021',
+                           'title': 'A framework for feature selection through '
+                                    'boosting'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:SP6oXDckpogC',
+                   'bib': {'pub_year': '2021',
+                           'title': 'Use of Convolutional Neural Networks for '
+                                    'the Detection of u-Serrated Patterns in '
+                                    'Direct Immunofluorescence Images to '
+                                    'Facilitate the Diagnosis of Epidermolysis '
+                                    'Bullosa Acquisita'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:abG-DnoFyZgC',
+                   'bib': {'pub_year': '2021',
+                           'title': 'Injury Prediction in Competitive Runners '
+                                    'With Machine Learning'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:KxtntwgDAa4C',
+                   'bib': {'pub_year': '2021',
+                           'title': 'Autonomous Health Monitoring and '
+                                    'Assistance Systems With IoT'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:b0M2c_1WBrUC',
+                   'bib': {'pub_year': '2021',
+                           'title': 'Fall detection and recognition from '
+                                    'egocentric visual data: A case study'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:u9iWguZQMMsC',
+                   'bib': {'pub_year': '2021',
+                           'title': 'Fall detection with a wearable camera '
+                                    'using traditional and deep learning '
+                                    'algorithms'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:WbkHhVStYXYC',
+                   'bib': {'pub_year': '2021',
+                           'title': 'Fall detection and recognition from '
+                                    'egocentric visual data: 25th '
+                                    'International Conference on Pattern '
+                                    'Recognition Workshops, ICPR 2020'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:uWQEDVKXjbEC',
+                   'bib': {'pub_year': '2021',
+                           'title': 'Development of a Hardware Benchmark for '
+                                    'Forensic Face Detection Applications'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:_xSYboBqXhAC',
+                   'bib': {'pub_year': '2020',
+                           'title': 'Egocentric camera-based fall detection '
+                                    'system using rotation, motion, HOG and '
+                                    'LBP'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:D03iK_w7-QYC',
+                   'bib': {'pub_year': '2020',
+                           'title': 'Improving predictive performance on '
+                                    'survival in dairy cattle using an '
+                                    'ensemble learning approach'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:p2g8aNsByqUC',
+                   'bib': {'pub_year': '2020',
+                           'title': 'Inhibition-augmented ConvNets'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:CHSYGLWDkRkC',
+                   'bib': {'pub_year': '2019',
+                           'title': 'Guest Editor of the Special Issue '
+                                    'COBOT-UHAI on Pattern Recognition '
+                                    'Letters: Cooperative and Social Robots: '
+                                    'Understanding Human Activities and '
+                                    'Intentions'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:M05iB0D1s5AC',
+                   'bib': {'pub_year': '2019',
+                           'title': 'Alpha-tree segmentation of human '
+                                    'anatomical photographic imagery'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:P5F9QuxV20EC',
+                   'bib': {'pub_year': '2019',
+                           'title': 'Automatic identification of Holstein '
+                                    'cattle using a non-invasive computer '
+                                    'vision approach'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:O3NaXMp0MMsC',
+                   'bib': {'pub_year': '2018',
+                           'title': 'Estimation of live muscle scores of pigs '
+                                    'with RGB-D images and machine learning'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:1sJd4Hv_s6UC',
+                   'bib': {'pub_year': '2018',
+                           'title': 'Predicting slaughter age in pigs using '
+                                    'random forest regression'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:nb7KW1ujOQ8C',
+                   'bib': {'pub_year': '2018',
+                           'title': 'Retinal Fundus Biometric Analysis using '
+                                    'COSFIRE Filters'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:NhqRSupF_l8C',
+                   'bib': {'pub_year': '2018',
+                           'title': 'Fusion of CNN-and COSFIRE-based features '
+                                    'with application to Gender Recognition '
+                                    'from Face Images'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:bFI3QPDXJZMC',
+                   'bib': {'pub_year': '2018',
+                           'title': 'Person Identification with Retinal Fundus '
+                                    'Biometric Analysis Using COSFIRE Filters'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:-f6ydRqryjwC',
+                   'bib': {'pub_year': '2016',
+                           'title': 'Special issue on selected papers from '
+                                    'CAIP 2015'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:UxriW0iASnsC',
+                   'bib': {'pub_year': '2015', 'title': 'of host publication'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:cFHS6HbyZ2cC',
+                   'bib': {'pub_year': '2015',
+                           'title': 'Perceptual industrial surface quality '
+                                    'inspection'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:j3f4tGmQtD8C',
+                   'bib': {'pub_year': '2015',
+                           'title': 'Filter-based approach for ornamentation '
+                                    'detection and recognition in singing folk '
+                                    'music'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:ZHo1McVdvXMC',
+                   'bib': {'pub_year': '2014',
+                           'title': 'A decision support system for planning of '
+                                    'flexible biogas chains'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:35N4QoGY0k4C',
+                   'bib': {'pub_year': '2014',
+                           'title': 'A decision support system for planning of '
+                                    'flexible biogas chains'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:70eg2SAEIzsC',
+                   'bib': {'pub_year': '2014',
+                           'title': 'The Flexigas simulator'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:isC4tDSrTZIC',
+                   'bib': {'pub_year': '2014',
+                           'title': 'The flexigas simulator: a decision '
+                                    'support system for biogas chains'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:QIV2ME_5wuYC',
+                   'bib': {'pub_year': '2014',
+                           'title': 'A Push-Pull CORF Model of a Simple Cell '
+                                    'with Antiphase Inhibition Improves SNR '
+                                    'and'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:3fE2CSJIrl8C',
+                   'bib': {'pub_year': '2014',
+                           'title': 'Trainable COSFIRE filters for keypoint '
+                                    'detection object localization, and '
+                                    'pattern recognition'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:0EnyYjriUFMC',
+                   'bib': {'pub_year': '2014',
+                           'title': 'A computational model of push-pull '
+                                    'inhibition of simple cells with '
+                                    'application to contour detection'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:k_IJM867U9cC',
+                   'bib': {'pub_year': '2013',
+                           'title': 'GOOSE: search on internet of connected '
+                                    'sensors'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:hFOr9nPyWt4C',
+                   'bib': {'pub_year': '2013',
+                           'title': 'COSFIRE (Combination of Shifted Filter '
+                                    'Responses): A trainable filter approach '
+                                    'to visual pattern recognition'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:ufrVoPGSRksC',
+                   'bib': {'pub_year': '2013',
+                           'title': 'COSFIRE: A trainable features approach to '
+                                    'pattern recognition'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:YsMSGLbcyi4C',
+                   'bib': {'pub_year': '2013',
+                           'title': 'COSFIRE (Combination of Shifted Filter '
+                                    'Responses): a trainable filter approach '
+                                    'to visual pattern recognition'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:UeHWp8X0CEIC',
+                   'bib': {'pub_year': '2012',
+                           'title': 'Detection of retinal vascular '
+                                    'bifurcations by rotation-and '
+                                    'scale-invariant COSFIRE filters'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:roLk4NBRz8UC',
+                   'bib': {'pub_year': '2012',
+                           'title': 'CORF: A computational model of a simple '
+                                    'cell with application to contour '
+                                    'detection'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:WF5omc3nYNoC',
+                   'bib': {'pub_year': '2012',
+                           'title': 'V4-like filters applied to the detection '
+                                    'of retinal vascular bifurcations'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:eQOLeE2rZwMC',
+                   'bib': {'pub_year': '2012',
+                           'title': 'CORF: A computational model of a simple '
+                                    'cell with application to contour '
+                                    'detection'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:maZDTaKrznsC',
+                   'bib': {'pub_year': '2011',
+                           'title': 'Trainable V4-like filters for detecting '
+                                    'retinal vascular bifurcations'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:9yKSN-GCB0IC',
+                   'bib': {'pub_year': '2009',
+                           'title': 'Rank-Based Filter with Frequency-and '
+                                    'Orientation-Selective Response'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:iH-uZ7U-co4C',
+                   'bib': {'pub_year': '2008',
+                           'title': 'How effective is a rank-based filter with '
+                                    'a frequency and orientation selective '
+                                    'response?'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:pyW8ca7W8N0C',
+                   'bib': {'title': 'Improving predictive performance using '
+                                    'ensemble methods in a case study on '
+                                    'survival in dairy cattle'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:NaGl4SEjCO4C',
+                   'bib': {'title': 'COSFIRE MODELS FOR DESCRIBING OBJECTS AS '
+                                    'ARRANGEMENTS OF CIRCULAR REGIONS'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:4JMBOYKVnBMC',
+                   'bib': {'title': 'Ornamentation detection using COSFIRE '
+                                    'filters'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>},
+                  {'author_pub_id': '6QnooDkAAAAJ:RHpTSmoSYBkC',
+                   'bib': {'title': 'Computational Models and Brain-Inspired '
+                                    'Computing'},
+                   'container_type': 'Publication',
+                   'filled': False,
+                   'num_citations': 0,
+                   'source': <PublicationSource.AUTHOR_PUBLICATION_ENTRY: 2>}],
+ 'scholar_id': '6QnooDkAAAAJ',
+ 'source': <AuthorSource.SEARCH_AUTHOR_SNIPPETS: 2>,
+ 'url_picture': 'https://scholar.google.com/citations?view_op=medium_photo&user=6QnooDkAAAAJ'}
+
+
+
+
+
+
+
+
+
+
+ ####################################################################################################################### SERP!
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ [{'created_at': '2021-09-29 16:10:47 UTC',
+  'google_scholar_author_url': 'https://scholar.google.com/citations?user=6QnooDkAAAAJ&hl=en&cstart=0&pagesize=20',
+  'id': '61549007b7b1cc270a0c13e7',
+  'json_endpoint': 'https://serpapi.com/searches/9a4a1996e8ea1c8d/61549007b7b1cc270a0c13e7.json',
+  'processed_at': '2021-09-29 16:10:47 UTC',
+  'raw_html_file': 'https://serpapi.com/searches/9a4a1996e8ea1c8d/61549007b7b1cc270a0c13e7.html',
+  'status': 'Success',
+  'total_time_taken': 0.54},
+ {'author_id': '6QnooDkAAAAJ',
+  'engine': 'google_scholar_author',
+  'hl': 'en',
+  'num': '20',
+  'start': 0},
+ {'affiliations': 'Assistant Professor, Computer Science, University of '
+                  'Groningen, University of Malta',
+  'email': 'Verified email at rug.nl',
+  'interests': [{'link': 'https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:brain_inspired_computing',
+                 'serpapi_link': 'https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Abrain_inspired_computing',
+                 'title': 'Brain-inspired computing'},
+                {'link': 'https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:computer_vision',
+                 'serpapi_link': 'https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Acomputer_vision',
+                 'title': 'Computer Vision'},
+                {'link': 'https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:pattern_recognition',
+                 'serpapi_link': 'https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Apattern_recognition',
+                 'title': 'Pattern Recognition'},
+                {'link': 'https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:machine_learning',
+                 'serpapi_link': 'https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Amachine_learning',
+                 'title': 'Machine Learning'},
+                {'link': 'https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:information_retrieval',
+                 'serpapi_link': 'https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Ainformation_retrieval',
+                 'title': 'Information Retrieval'}],
+  'name': 'George Azzopardi',
+  'thumbnail': 'https://scholar.googleusercontent.com/citations?view_op=view_photo&user=6QnooDkAAAAJ&citpid=11',
+  'website': 'http://www.cs.rug.nl/~george'},
+ [{'authors': 'G Azzopardi, N Strisciuglio, M Vento, N Petkov',
+   'citation_id': '6QnooDkAAAAJ:5nxA0vEk-isC',
+   'cited_by': {'cites_id': '2070270845011013294',
+                'link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2070270845011013294',
+                'serpapi_link': 'https://serpapi.com/search.json?cites=2070270845011013294&engine=google_scholar&hl=en',
+                'value': 543},
+   'link': 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6QnooDkAAAAJ&citation_for_view=6QnooDkAAAAJ:5nxA0vEk-isC',
+   'publication': 'Medical image analysis 19 (1), 46-57, 2015',
+   'title': 'Trainable COSFIRE filters for vessel delineation with application '
+            'to retinal images',
+   'year': '2015'},
+  {'authors': 'G Azzopardi, N Petkov',
+   'citation_id': '6QnooDkAAAAJ:IjCSPb-OGe4C',
+   'cited_by': {'cites_id': '9464402655957507492',
+                'link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9464402655957507492',
+                'serpapi_link': 'https://serpapi.com/search.json?cites=9464402655957507492&engine=google_scholar&hl=en',
+                'value': 128},
+   'link': 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6QnooDkAAAAJ&citation_for_view=6QnooDkAAAAJ:IjCSPb-OGe4C',
+   'publication': 'Pattern Analysis and Machine Intelligence, IEEE '
+                  'Transactions on 35 (2), 490-503, 2013',
+   'title': 'Trainable COSFIRE filters for keypoint detection and pattern '
+            'recognition',
+   'year': '2013'},
+  {'authors': 'G Azzopardi, N Petkov',
+   'citation_id': '6QnooDkAAAAJ:qjMakFHDy7sC',
+   'cited_by': {'cites_id': '10458610800642390415',
+                'link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10458610800642390415',
+                'serpapi_link': 'https://serpapi.com/search.json?cites=10458610800642390415&engine=google_scholar&hl=en',
+                'value': 115},
+   'link': 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6QnooDkAAAAJ&citation_for_view=6QnooDkAAAAJ:qjMakFHDy7sC',
+   'publication': 'Biological cybernetics 106 (3), 177-189, 2012',
+   'title': 'A CORF computational model of a simple cell that relies on LGN '
+            'input outperforms the Gabor function model',
+   'year': '2012'},
+  {'authors': 'G Azzopardi, N Petkov',
+   'citation_id': '6QnooDkAAAAJ:W7OEmFMy1HYC',
+   'cited_by': {'cites_id': '3667312189678589999',
+                'link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3667312189678589999',
+                'serpapi_link': 'https://serpapi.com/search.json?cites=3667312189678589999&engine=google_scholar&hl=en',
+                'value': 91},
+   'link': 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6QnooDkAAAAJ&citation_for_view=6QnooDkAAAAJ:W7OEmFMy1HYC',
+   'publication': 'Pattern Recognition Letters 34 (8), 922-933, 2013',
+   'title': 'Automatic detection of vascular bifurcations in segmented retinal '
+            'images using trainable COSFIRE filters',
+   'year': '2013'},
+  {'authors': 'N Strisciuglio, G Azzopardi, M Vento, N Petkov',
+   'citation_id': '6QnooDkAAAAJ:7PzlFSSx8tAC',
+   'cited_by': {'cites_id': '16490539054374844578',
+                'link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16490539054374844578',
+                'serpapi_link': 'https://serpapi.com/search.json?cites=16490539054374844578&engine=google_scholar&hl=en',
+                'value': 75},
+   'link': 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6QnooDkAAAAJ&citation_for_view=6QnooDkAAAAJ:7PzlFSSx8tAC',
+   'publication': 'Machine Vision and Applications, 2016',
+   'title': 'Supervised vessel delineation in retinal fundus images with the '
+            'automatic selection of B-COSFIRE filters',
+   'year': '2016'},
+  {'authors': 'L Fernández-Robles, G Azzopardi, E Alegre, N Petkov',
+   'citation_id': '6QnooDkAAAAJ:qUcmZB5y_30C',
+   'cited_by': {'cites_id': '4120097824417486752',
+                'link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4120097824417486752',
+                'serpapi_link': 'https://serpapi.com/search.json?cites=4120097824417486752&engine=google_scholar&hl=en',
+                'value': 46},
+   'link': 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6QnooDkAAAAJ&citation_for_view=6QnooDkAAAAJ:qUcmZB5y_30C',
+   'publication': 'Robotics and Computer-Integrated Manufacturing 44, 276-283, '
+                  '2017',
+   'title': 'Machine-vision-based identification of broken inserts in edge '
+            'profile milling heads',
+   'year': '2017'},
+  {'authors': 'G Azzopardi, A Rodríguez-Sánchez, J Piater, N Petkov',
+   'citation_id': '6QnooDkAAAAJ:UebtZRa9Y70C',
+   'cited_by': {'cites_id': '11884007876385718437',
+                'link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11884007876385718437',
+                'serpapi_link': 'https://serpapi.com/search.json?cites=11884007876385718437&engine=google_scholar&hl=en',
+                'value': 42},
+   'link': 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6QnooDkAAAAJ&citation_for_view=6QnooDkAAAAJ:UebtZRa9Y70C',
+   'publication': 'PLoS One 9 (7), e98424, 2014',
+   'title': 'A push-pull CORF model of a simple cell with antiphase inhibition '
+            'improves SNR and contour detection',
+   'year': '2014'},
+  {'authors': 'B Gecer, G Azzopardi, N Petkov',
+   'citation_id': '6QnooDkAAAAJ:hC7cP41nSMkC',
+   'cited_by': {'cites_id': '12415685777267789807',
+                'link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12415685777267789807',
+                'serpapi_link': 'https://serpapi.com/search.json?cites=12415685777267789807&engine=google_scholar&hl=en',
+                'value': 38},
+   'link': 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6QnooDkAAAAJ&citation_for_view=6QnooDkAAAAJ:hC7cP41nSMkC',
+   'publication': 'Image and Vision Computing 57, 165-174, 2017',
+   'title': 'Color-blob-based COSFIRE filters for object recognition',
+   'year': '2017'},
+  {'authors': 'G Azzopardi, N Petkov',
+   'citation_id': '6QnooDkAAAAJ:u5HHmVD_uO8C',
+   'cited_by': {'cites_id': '12987427977583302500',
+                'link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12987427977583302500',
+                'serpapi_link': 'https://serpapi.com/search.json?cites=12987427977583302500&engine=google_scholar&hl=en',
+                'value': 38},
+   'link': 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6QnooDkAAAAJ&citation_for_view=6QnooDkAAAAJ:u5HHmVD_uO8C',
+   'publication': 'International Conference on Computer Analysis of Images and '
+                  'Patterns, 451-459, 2011',
+   'title': 'Detection of retinal vascular bifurcations by trainable V4-like '
+            'filters',
+   'year': '2011'},
+  {'authors': 'G Azzopardi, A Greco, A Saggese, M Vento',
+   'citation_id': '6QnooDkAAAAJ:bEWYMUwI8FkC',
+   'cited_by': {'cites_id': '6446338106943186590',
+                'link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6446338106943186590',
+                'serpapi_link': 'https://serpapi.com/search.json?cites=6446338106943186590&engine=google_scholar&hl=en',
+                'value': 36},
+   'link': 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6QnooDkAAAAJ&citation_for_view=6QnooDkAAAAJ:bEWYMUwI8FkC',
+   'publication': 'IEEE Access 6, 24171-24183, 2018',
+   'title': 'Fusion of domain-specific and trainable features for gender '
+            'recognition from face images',
+   'year': '2018'},
+  {'authors': 'S Farrugia, J Ellul, G Azzopardi',
+   'citation_id': '6QnooDkAAAAJ:rO6llkc54NcC',
+   'cited_by': {'cites_id': '12908094468392243090',
+                'link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12908094468392243090',
+                'serpapi_link': 'https://serpapi.com/search.json?cites=12908094468392243090&engine=google_scholar&hl=en',
+                'value': 32},
+   'link': 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6QnooDkAAAAJ&citation_for_view=6QnooDkAAAAJ:rO6llkc54NcC',
+   'publication': 'Expert Systems with Applications 150, 113318, 2020',
+   'title': 'Detection of illicit accounts over the Ethereum blockchain',
+   'year': '2020'},
+  {'authors': 'G Azzopardi, N Petkov',
+   'citation_id': '6QnooDkAAAAJ:Se3iqnhoufwC',
+   'cited_by': {'cites_id': '3993039052008024464',
+                'link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3993039052008024464',
+                'serpapi_link': 'https://serpapi.com/search.json?cites=3993039052008024464&engine=google_scholar&hl=en',
+                'value': 32},
+   'link': 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6QnooDkAAAAJ&citation_for_view=6QnooDkAAAAJ:Se3iqnhoufwC',
+   'publication': 'Frontiers in computational neuroscience 8, 80, 2014',
+   'title': 'Ventral-stream-like shape representation: from pixel intensity '
+            'values to trainable object-selective COSFIRE models',
+   'year': '2014'},
+  {'authors': 'G Azzopardi, A Greco, M Vento',
+   'citation_id': '6QnooDkAAAAJ:mB3voiENLucC',
+   'cited_by': {'cites_id': '4651613612121040597',
+                'link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4651613612121040597',
+                'serpapi_link': 'https://serpapi.com/search.json?cites=4651613612121040597&engine=google_scholar&hl=en',
+                'value': 31},
+   'link': 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6QnooDkAAAAJ&citation_for_view=6QnooDkAAAAJ:mB3voiENLucC',
+   'publication': '13th IEEE International Conference on Advanced Video and '
+                  'Signal Based …, 2016',
+   'title': 'Gender recognition from face images with trainable COSFIRE '
+            'filters',
+   'year': '2016'},
+  {'authors': 'N Strisciuglio, G Azzopardi, M Vento, N Petkov',
+   'citation_id': '6QnooDkAAAAJ:YOwf2qJgpHMC',
+   'cited_by': {'cites_id': '14788467773109464126',
+                'link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14788467773109464126',
+                'serpapi_link': 'https://serpapi.com/search.json?cites=14788467773109464126&engine=google_scholar&hl=en',
+                'value': 31},
+   'link': 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6QnooDkAAAAJ&citation_for_view=6QnooDkAAAAJ:YOwf2qJgpHMC',
+   'publication': 'International Conference on Computer Analysis of Images and '
+                  'Patterns, 300-312, 2015',
+   'title': 'Multiscale blood vessel delineation using B-COSFIRE filters',
+   'year': '2015'},
+  {'authors': 'G Azzopardi, A Greco, M Vento',
+   'citation_id': '6QnooDkAAAAJ:L8Ckcad2t8MC',
+   'cited_by': {'cites_id': '15586049091751299864',
+                'link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15586049091751299864',
+                'serpapi_link': 'https://serpapi.com/search.json?cites=15586049091751299864&engine=google_scholar&hl=en',
+                'value': 29},
+   'link': 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6QnooDkAAAAJ&citation_for_view=6QnooDkAAAAJ:L8Ckcad2t8MC',
+   'publication': 'International Conference on Image Analysis and Recognition, '
+                  '533-538, 2016',
+   'title': 'Gender recognition from face images using a fusion of svm '
+            'classifiers',
+   'year': '2016'},
+  {'authors': 'N Strisciuglio, M Vento, G Azzopardi, N Petkov',
+   'citation_id': '6QnooDkAAAAJ:qxL8FJ1GzNcC',
+   'cited_by': {'cites_id': '8611882670439674405',
+                'link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8611882670439674405',
+                'serpapi_link': 'https://serpapi.com/search.json?cites=8611882670439674405&engine=google_scholar&hl=en',
+                'value': 28},
+   'link': 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6QnooDkAAAAJ&citation_for_view=6QnooDkAAAAJ:qxL8FJ1GzNcC',
+   'title': 'Unsupervised delineation of the vessel tree in retinal fundus '
+            'images',
+   'year': '2015'},
+  {'authors': 'X Wang, J Ellul, G Azzopardi',
+   'citation_id': '6QnooDkAAAAJ:4OULZ7Gr8RgC',
+   'cited_by': {'cites_id': '5929739968389719528',
+                'link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5929739968389719528',
+                'serpapi_link': 'https://serpapi.com/search.json?cites=5929739968389719528&engine=google_scholar&hl=en',
+                'value': 23},
+   'link': 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6QnooDkAAAAJ&citation_for_view=6QnooDkAAAAJ:4OULZ7Gr8RgC',
+   'publication': 'Frontiers in Robotics and AI 7, 71, 2020',
+   'title': 'Elderly fall detection systems: A literature survey',
+   'year': '2020'},
+  {'authors': 'L Fernández-Robles, G Azzopardi, E Alegre, N Petkov',
+   'citation_id': '6QnooDkAAAAJ:Zph67rFs4hoC',
+   'cited_by': {'cites_id': '5662988378610971464',
+                'link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5662988378610971464',
+                'serpapi_link': 'https://serpapi.com/search.json?cites=5662988378610971464&engine=google_scholar&hl=en',
+                'value': 19},
+   'link': 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6QnooDkAAAAJ&citation_for_view=6QnooDkAAAAJ:Zph67rFs4hoC',
+   'publication': 'International Conference on Computer Analysis of Images and '
+                  'Patterns, 336-347, 2015',
+   'title': 'Cutting edge localisation in an edge profile milling head',
+   'year': '2015'},
+  {'authors': 'N Strisciuglio, G Azzopardi, N Petkov',
+   'citation_id': '6QnooDkAAAAJ:R3hNpaxXUhUC',
+   'cited_by': {'cites_id': '17614754016067909735',
+                'link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17614754016067909735',
+                'serpapi_link': 'https://serpapi.com/search.json?cites=17614754016067909735&engine=google_scholar&hl=en',
+                'value': 18},
+   'link': 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6QnooDkAAAAJ&citation_for_view=6QnooDkAAAAJ:R3hNpaxXUhUC',
+   'publication': 'International Conference on Computer Analysis of Images and '
+                  'Patterns, 108-120, 2017',
+   'title': 'Detection of curved lines with B-COSFIRE filters: A case study on '
+            'crack delineation',
+   'year': '2017'},
+  {'authors': 'FA Abadi, J Ellul, G Azzopardi',
+   'citation_id': '6QnooDkAAAAJ:JV2RwH3_ST0C',
+   'cited_by': {'cites_id': '14790434563678232000',
+                'link': 'https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14790434563678232000',
+                'serpapi_link': 'https://serpapi.com/search.json?cites=14790434563678232000&engine=google_scholar&hl=en',
+                'value': 16},
+   'link': 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6QnooDkAAAAJ&citation_for_view=6QnooDkAAAAJ:JV2RwH3_ST0C',
+   'publication': 'IEEE Cybermatics, The 2018 IEEE International Conference on '
+                  'Blockchain, 1666 …, 2018',
+   'title': 'The Blockchain of Things, Beyond Bitcoin: A Systematic Review',
+   'year': '2018'}],
+ {'graph': [{'citations': 5, 'year': 2011},
+            {'citations': 18, 'year': 2012},
+            {'citations': 25, 'year': 2013},
+            {'citations': 37, 'year': 2014},
+            {'citations': 113, 'year': 2015},
+            {'citations': 139, 'year': 2016},
+            {'citations': 228, 'year': 2017},
+            {'citations': 241, 'year': 2018},
+            {'citations': 339, 'year': 2019},
+            {'citations': 288, 'year': 2020},
+            {'citations': 241, 'year': 2021}],
+  'table': [{'citations': {'all': 1690, 'since_2016': 1479}},
+            {'h_index': {'all': 18, 'since_2016': 17}},
+            {'i10_index': {'all': 32, 'since_2016': 28}}]},
+ {'available': 7,
+  'link': 'https://scholar.google.com/citations?view_op=list_mandates&hl=en&user=6QnooDkAAAAJ',
+  'not_available': 1},
+ [{'affiliations': 'University of Groningen',
+   'author_id': 'cmSmtocAAAAJ',
+   'email': 'Verified email at rug.nl',
+   'link': 'https://scholar.google.com/citations?user=cmSmtocAAAAJ&hl=en',
+   'name': 'Nicolai Petkov',
+   'serpapi_link': 'https://serpapi.com/search.json?author_id=cmSmtocAAAAJ&engine=google_scholar_author&hl=en&num=20&start=0',
+   'thumbnail': 'https://scholar.googleusercontent.com/citations?view_op=small_photo&user=cmSmtocAAAAJ&citpid=2'},
+  {'affiliations': 'University of Twente (Assistant Professor)',
+   'author_id': '7cgpfGYAAAAJ',
+   'email': 'Verified email at utwente.nl',
+   'link': 'https://scholar.google.com/citations?user=7cgpfGYAAAAJ&hl=en',
+   'name': 'Nicola Strisciuglio',
+   'serpapi_link': 'https://serpapi.com/search.json?author_id=7cgpfGYAAAAJ&engine=google_scholar_author&hl=en&num=20&start=0',
+   'thumbnail': 'https://scholar.googleusercontent.com/citations?view_op=small_photo&user=7cgpfGYAAAAJ&citpid=9'},
+  {'affiliations': 'University of Salerno, Dept. of Information and Electrical '
+                   'Engineering and Applied Math (DIEM)',
+   'author_id': '3PwXGpgAAAAJ',
+   'email': 'Verified email at unisa.it',
+   'link': 'https://scholar.google.com/citations?user=3PwXGpgAAAAJ&hl=en',
+   'name': 'Prof. Mario Vento, Ph.D.',
+   'serpapi_link': 'https://serpapi.com/search.json?author_id=3PwXGpgAAAAJ&engine=google_scholar_author&hl=en&num=20&start=0',
+   'thumbnail': 'https://scholar.googleusercontent.com/citations?view_op=small_photo&user=3PwXGpgAAAAJ&citpid=2'},
+  {'affiliations': 'Professor in Computer Science. Universidad de Leon (Spain)',
+   'author_id': 'opCbArQAAAAJ',
+   'email': 'Verified email at unileon.es',
+   'link': 'https://scholar.google.com/citations?user=opCbArQAAAAJ&hl=en',
+   'name': 'ENRIQUE ALEGRE',
+   'serpapi_link': 'https://serpapi.com/search.json?author_id=opCbArQAAAAJ&engine=google_scholar_author&hl=en&num=20&start=0',
+   'thumbnail': 'https://scholar.googleusercontent.com/citations?view_op=small_photo&user=opCbArQAAAAJ&citpid=2'},
+  {'affiliations': 'postdoc in medical image informatics',
+   'author_id': 'S0UE01gAAAAJ',
+   'email': 'Verified email at rug.nl',
+   'link': 'https://scholar.google.com/citations?user=S0UE01gAAAAJ&hl=en',
+   'name': 'Jiapan Guo',
+   'serpapi_link': 'https://serpapi.com/search.json?author_id=S0UE01gAAAAJ&engine=google_scholar_author&hl=en&num=20&start=0',
+   'thumbnail': 'https://scholar.google.com/citations/images/avatar_scholar_56.png'},
+  {'affiliations': 'University of León',
+   'author_id': '4jZgNVkAAAAJ',
+   'email': 'Verified email at unileon.es',
+   'link': 'https://scholar.google.com/citations?user=4jZgNVkAAAAJ&hl=en',
+   'name': 'Laura FERNÁNDEZ-ROBLES',
+   'serpapi_link': 'https://serpapi.com/search.json?author_id=4jZgNVkAAAAJ&engine=google_scholar_author&hl=en&num=20&start=0',
+   'thumbnail': 'https://scholar.googleusercontent.com/citations?view_op=small_photo&user=4jZgNVkAAAAJ&citpid=1'},
+  {'affiliations': 'Associate Professor, University of Innsbruck',
+   'author_id': 'ei7XukUAAAAJ',
+   'email': 'Verified email at uibk.ac.at',
+   'link': 'https://scholar.google.com/citations?user=ei7XukUAAAAJ&hl=en',
+   'name': 'Antonio Rodriguez-Sanchez',
+   'serpapi_link': 'https://serpapi.com/search.json?author_id=ei7XukUAAAAJ&engine=google_scholar_author&hl=en&num=20&start=0',
+   'thumbnail': 'https://scholar.googleusercontent.com/citations?view_op=small_photo&user=ei7XukUAAAAJ&citpid=3'},
+  {'affiliations': 'University of Malta and Malta Digital Innovation Authority',
+   'author_id': 'U757tgQAAAAJ',
+   'email': 'Verified email at um.edu.mt',
+   'link': 'https://scholar.google.com/citations?user=U757tgQAAAAJ&hl=en',
+   'name': 'Joshua Ellul',
+   'serpapi_link': 'https://serpapi.com/search.json?author_id=U757tgQAAAAJ&engine=google_scholar_author&hl=en&num=20&start=0',
+   'thumbnail': 'https://scholar.googleusercontent.com/citations?view_op=small_photo&user=U757tgQAAAAJ&citpid=4'},
+  {'affiliations': 'Prof. Numerieke genetica en genomica, ABGC, Wageningen '
+                   'Livestock Research',
+   'author_id': 'z0Hq4ekAAAAJ',
+   'email': 'Verified email at wur.nl',
+   'link': 'https://scholar.google.com/citations?user=z0Hq4ekAAAAJ&hl=en',
+   'name': 'Roel Veerkamp',
+   'serpapi_link': 'https://serpapi.com/search.json?author_id=z0Hq4ekAAAAJ&engine=google_scholar_author&hl=en&num=20&start=0',
+   'thumbnail': 'https://scholar.google.com/citations/images/avatar_scholar_56.png'},
+  {'affiliations': 'Assistant Professor, Animal Breeding and Genetics, '
+                   'Wageningen University and Research',
+   'author_id': 'UvZkXPgAAAAJ',
+   'email': 'Verified email at wur.nl',
+   'link': 'https://scholar.google.com/citations?user=UvZkXPgAAAAJ&hl=en',
+   'name': 'Bart Ducro',
+   'serpapi_link': 'https://serpapi.com/search.json?author_id=UvZkXPgAAAAJ&engine=google_scholar_author&hl=en&num=20&start=0',
+   'thumbnail': 'https://scholar.google.com/citations/images/avatar_scholar_56.png'},
+  {'affiliations': 'University Medical Center Groningen',
+   'author_id': 'qBwovbgAAAAJ',
+   'email': 'Verified email at umcg.nl',
+   'link': 'https://scholar.google.com/citations?user=qBwovbgAAAAJ&hl=en',
+   'name': 'Ahmad Alsahaf',
+   'serpapi_link': 'https://serpapi.com/search.json?author_id=qBwovbgAAAAJ&engine=google_scholar_author&hl=en&num=20&start=0',
+   'thumbnail': 'https://scholar.googleusercontent.com/citations?view_op=small_photo&user=qBwovbgAAAAJ&citpid=4'},
+  {'affiliations': 'Professor of Computer Science, University of Innsbruck, '
+                   'Austria',
+   'author_id': 'meJCYXAAAAAJ',
+   'email': 'Verified email at uibk.ac.at',
+   'link': 'https://scholar.google.com/citations?user=meJCYXAAAAAJ&hl=en',
+   'name': 'Justus Piater',
+   'serpapi_link': 'https://serpapi.com/search.json?author_id=meJCYXAAAAAJ&engine=google_scholar_author&hl=en&num=20&start=0',
+   'thumbnail': 'https://scholar.googleusercontent.com/citations?view_op=small_photo&user=meJCYXAAAAAJ&citpid=2'},
+  {'affiliations': 'Assistant Professor, University of Salerno',
+   'author_id': 'OwHN05YAAAAJ',
+   'email': 'Verified email at unisa.it',
+   'link': 'https://scholar.google.com/citations?user=OwHN05YAAAAJ&hl=en',
+   'name': 'Alessia Saggese, PhD',
+   'serpapi_link': 'https://serpapi.com/search.json?author_id=OwHN05YAAAAJ&engine=google_scholar_author&hl=en&num=20&start=0',
+   'thumbnail': 'https://scholar.googleusercontent.com/citations?view_op=small_photo&user=OwHN05YAAAAJ&citpid=2'},
+  {'affiliations': 'Senior scientist at TNO',
+   'author_id': 'rvFvJhYAAAAJ',
+   'email': 'Verified email at tno.nl',
+   'link': 'https://scholar.google.com/citations?user=rvFvJhYAAAAJ&hl=en',
+   'name': 'Henri Bouma',
+   'serpapi_link': 'https://serpapi.com/search.json?author_id=rvFvJhYAAAAJ&engine=google_scholar_author&hl=en&num=20&start=0',
+   'thumbnail': 'https://scholar.googleusercontent.com/citations?view_op=small_photo&user=rvFvJhYAAAAJ&citpid=3'},
+  {'affiliations': 'TNO, Intelligent Imaging',
+   'author_id': 'mgo9_WAAAAAJ',
+   'email': 'Verified email at TNO.nl',
+   'link': 'https://scholar.google.com/citations?user=mgo9_WAAAAAJ&hl=en',
+   'name': 'Klamer Schutte',
+   'serpapi_link': 'https://serpapi.com/search.json?author_id=mgo9_WAAAAAJ&engine=google_scholar_author&hl=en&num=20&start=0',
+   'thumbnail': 'https://scholar.googleusercontent.com/citations?view_op=small_photo&user=mgo9_WAAAAAJ&citpid=2'},
+  {'affiliations': 'QuTech, TNO, University of Antwerp',
+   'author_id': 'zeOmyfsAAAAJ',
+   'email': 'Verified email at tno.nl',
+   'link': 'https://scholar.google.com/citations?user=zeOmyfsAAAAJ&hl=en',
+   'name': 'Pieter Eendebak',
+   'serpapi_link': 'https://serpapi.com/search.json?author_id=zeOmyfsAAAAJ&engine=google_scholar_author&hl=en&num=20&start=0',
+   'thumbnail': 'https://scholar.googleusercontent.com/citations?view_op=small_photo&user=zeOmyfsAAAAJ&citpid=3'},
+  {'affiliations': 'Post doc, University of Cyprus',
+   'author_id': 'LPTNw9sAAAAJ',
+   'email': 'Verified email at ucy.ac.cy',
+   'link': 'https://scholar.google.com/citations?user=LPTNw9sAAAAJ&hl=en',
+   'name': 'Andreas Neocleous',
+   'serpapi_link': 'https://serpapi.com/search.json?author_id=LPTNw9sAAAAJ&engine=google_scholar_author&hl=en&num=20&start=0',
+   'thumbnail': 'https://scholar.googleusercontent.com/citations?view_op=small_photo&user=LPTNw9sAAAAJ&citpid=1'},
+  {'affiliations': 'Professor of Computer Science, University of Cyprus',
+   'author_id': 'RrUhoesAAAAJ',
+   'email': 'Verified email at ucy.ac.cy',
+   'link': 'https://scholar.google.com/citations?user=RrUhoesAAAAJ&hl=en',
+   'name': 'Christos N. Schizas',
+   'serpapi_link': 'https://serpapi.com/search.json?author_id=RrUhoesAAAAJ&engine=google_scholar_author&hl=en&num=20&start=0',
+   'thumbnail': 'https://scholar.googleusercontent.com/citations?view_op=small_photo&user=RrUhoesAAAAJ&citpid=6'},
+  {'affiliations': 'PTC',
+   'author_id': 'VIGGD3AAAAAJ',
+   'email': 'Verified email at ptc.com',
+   'link': 'https://scholar.google.com/citations?user=VIGGD3AAAAAJ&hl=en',
+   'name': 'John Schavemaker',
+   'serpapi_link': 'https://serpapi.com/search.json?author_id=VIGGD3AAAAAJ&engine=google_scholar_author&hl=en&num=20&start=0',
+   'thumbnail': 'https://scholar.googleusercontent.com/citations?view_op=small_photo&user=VIGGD3AAAAAJ&citpid=3'},
+  {'affiliations': 'scientist',
+   'author_id': 'WQCJ--IAAAAJ',
+   'email': 'Verified email at tno.nl',
+   'link': 'https://scholar.google.com/citations?user=WQCJ--IAAAAJ&hl=en',
+   'name': 'Maaike de Boer',
+   'serpapi_link': 'https://serpapi.com/search.json?author_id=WQCJ--IAAAAJ&engine=google_scholar_author&hl=en&num=20&start=0',
+   'thumbnail': 'https://scholar.googleusercontent.com/citations?view_op=small_photo&user=WQCJ--IAAAAJ&citpid=3'}],
+ {'next': 'https://serpapi.com/search.json?author_id=6QnooDkAAAAJ&engine=google_scholar_author&hl=en&num=20&start=20'}]
+
+
+
+
+
+ summary ::::::::::::
+
+
+ ['P Liskowski, K Krawiec - IEEE transactions on medical imaging, 2016 - '
+ 'ieeexplore.ieee.org',
+ 'MZ Alom, C Yakopcic, M Hasan… - Journal of Medical …, 2019 - '
+ 'spiedigitallibrary.org',
+ 'Q Li, B Feng, LP Xie, P Liang… - IEEE transactions on …, 2015 - '
+ 'ieeexplore.ieee.org',
+ 'Z Gu, J Cheng, H Fu, K Zhou, H Hao… - IEEE transactions on …, 2019 - '       
+ 'ieeexplore.ieee.org',
+ 'Y Zhao, L Rada, K Chen, SP Harding… - IEEE transactions on …, 2015 - '       
+ 'ieeexplore.ieee.org',
+ 'H Fu, Y Xu, S Lin, DWK Wong, J Liu - International conference on medical …, '
+ '2016 - Springer',
+ 'JI Orlando, E Prokofyeva… - IEEE transactions on …, 2016 - '
+ 'ieeexplore.ieee.org',
+ 'Q Jin, Z Meng, TD Pham, Q Chen, L Wei… - Knowledge-Based Systems, 2019 - '
+ 'Elsevier',
+ 'J Zhang, B Dashtbozorg, E Bekkers… - IEEE transactions on …, 2016 - '
+ 'ieeexplore.ieee.org',
+ 'Z Yan, X Yang, KT Cheng - IEEE Transactions on Biomedical …, 2018 - '
+ 'ieeexplore.ieee.org',
+ 'G Azzopardi, N Strisciuglio, M Vento, N Petkov - Medical image analysis, '
+ '2015 - Elsevier',
+ 'F Visin, K Kastner, K Cho, M Matteucci… - arXiv preprint arXiv …, 2015 - '
+ 'arxiv.org',
+ 'G Azzopardi, N Petkov - Biological cybernetics, 2012 - Springer',
+ 'G Azzopardi, N Petkov - Pattern Recognition Letters, 2013 - Elsevier',
+ 'N Strisciuglio, G Azzopardi, M Vento… - Machine Vision and …, 2016 - '
+ 'Springer',
+ 'G Azzopardi, A Rodríguez-Sánchez, J Piater… - PLoS One, 2014 - '
+ 'journals.plos.org',
+ 'A Baldominos, Y Saez, P Isasi - Applied Sciences, 2019 - mdpi.com',
+ 'L Dora, S Agrawal, R Panda, A Abraham - Engineering Applications of …, 2017 '
+ '- Elsevier',
+ 'R Verschae, J Ruiz-del-Solar - Frontiers in Robotics and AI, 2015 - '
+ 'frontiersin.org',
+ 'B Gecer, G Azzopardi, N Petkov - Image and Vision Computing, 2017 - Elsevier',
+ 'G Azzopardi, N Strisciuglio, M Vento, N Petkov - Medical image analysis, '
+ '2015 - Elsevier',
+ 'G Azzopardi, N Petkov - IEEE Transactions on Pattern Analysis …, 2012 - '
+ 'ieeexplore.ieee.org',
+ 'G Azzopardi, N Petkov - Pattern Recognition Letters, 2013 - Elsevier',
+ 'NVK Medathati, H Neumann, GS Masson… - Computer Vision and …, 2016 - '
+ 'Elsevier',
+ 'G Azzopardi, A Rodríguez-Sánchez, J Piater… - PLoS One, 2014 - '
+ 'journals.plos.org',
+ 'G Azzopardi, A Greco, A Saggese, M Vento - IEEE access, 2018 - '
+ 'ieeexplore.ieee.org',
+ 'G Azzopardi, N Petkov - Frontiers in computational neuroscience, 2014 - '
+ 'frontiersin.org',
+ 'I Uroukov, R Speller - Signal Processing Research, 2015 - eprints.gla.ac.uk',
+ 'G Azzopardi, A Greco, M Vento - 2016 13th IEEE international …, 2016 - '
+ 'ieeexplore.ieee.org',
+ 'XY Gong, H Su, D Xu, ZT Zhang, F Shen… - International Journal of …, 2018 - '
+ 'Springer',
+ 'G Azzopardi, N Strisciuglio, M Vento, N Petkov - Medical image analysis, '
+ '2015 - Elsevier',
+ 'Y Zhao, Y Liu, X Wu, SP Harding, Y Zheng - PloS one, 2015 - '
+ 'journals.plos.org',
+ 'CL Srinidhi, P Aparna, J Rajan - Journal of medical systems, 2017 - '
+ 'search.ebscohost.com',
+ 'N Strisciuglio, G Azzopardi, M Vento… - Machine Vision and …, 2016 - '
+ 'Springer',
+ 'M Liao, Y Zhao, X Wang, P Dai - Optics & Laser Technology, 2014 - Elsevier',
+ 'MM Fraz, RA Welikala, AR Rudnicka, CG Owen… - Expert Systems with …, 2015 - '
+ 'Elsevier',
+ 'S Guo, K Wang, H Kang, Y Zhang, Y Gao… - International journal of …, 2019 - '
+ 'Elsevier',
+ 'G Azzopardi, A Rodríguez-Sánchez, J Piater… - PLoS One, 2014 - '
+ 'journals.plos.org',
+ 'X Meng, Y Yin, G Yang, X Xi - Sensors, 2013 - mdpi.com',
+ 'E Goceri, ZK Shah, MN Gurcan - International journal for …, 2017 - Wiley '
+ 'Online Library',
+ 'A Oliveira, S Pereira, CA Silva - Expert Systems with Applications, 2018 - '
+ 'Elsevier',
+ 'CL Srinidhi, P Aparna, J Rajan - Journal of medical systems, 2017 - '
+ 'search.ebscohost.com',
+ 'J Zhang, Y Chen, E Bekkers, M Wang, B Dashtbozorg… - Pattern Recognition, '
+ '2017 - Elsevier',
+ 'F Orujov, R Maskeliūnas, R Damaševičius… - Applied Soft Computing, 2020 - '
+ 'Elsevier',
+ 'G Azzopardi, A Greco, A Saggese, M Vento - IEEE access, 2018 - '
+ 'ieeexplore.ieee.org',
+ 'X Gao, Y Cai, C Qiu, Y Cui - 2017 10th International Congress …, 2017 - '
+ 'ieeexplore.ieee.org',
+ 'N Strisciuglio, N Petkov - 2017 International Conference and …, 2017 - '
+ 'ieeexplore.ieee.org',
+ 'P Xiuqin, Q Zhang, H Zhang, S Li - IEEE Access, 2019 - ieeexplore.ieee.org',
+ 'M Li, Q Yin, M Lu - 2018 Federated Conference on Computer …, 2018 - '
+ 'ieeexplore.ieee.org',
+ 'P Rot, M Vitek, K Grm, Ž Emeršič, P Peer… - Handbook of vascular …, 2020 - '
+ 'library.oapen.org',
+ 'MT García-Ordás, E Alegre-Gutiérrez… - Mechanical systems and …, 2018 - '
+ 'Elsevier',
+ 'VG Gusev, AA Fomin - Procedia Engineering, 2017 - Elsevier',
+ 'AA Fomin - Solid State Phenomena, 2017 - Trans Tech Publ',
+ 'RG Lins, PRM de Araujo, M Corazzim - Robotics and computer-integrated …, '
+ '2020 - Elsevier',
+ 'YD Chethan, HV Ravindra, YT Krishnegowda - Measurement, 2019 - Elsevier',
+ 'AA Fomin - 2017 International Conference on Industrial …, 2017 - '
+ 'ieeexplore.ieee.org',
+ 'AA Thakre, AV Lad, K Mala - Modelling and Simulation in Engineering, 2019 - '
+ 'hindawi.com',
+ 'VI Zatsepina, EP Zatsepin… - 2018 International …, 2018 - '
+ 'ieeexplore.ieee.org',
+ 'L Fernández-Robles, G Azzopardi, E Alegre… - Journal of Manufacturing …, '
+ '2017 - Elsevier',
+ 'Y Wang, K Hong, J Zou, T Peng… - IEEE Transactions on …, 2019 - '
+ 'ieeexplore.ieee.org',
+ 'B Gecer, G Azzopardi, N Petkov - Image and Vision Computing, 2017 - Elsevier',
+ 'G Azzopardi, A Greco, A Saggese, M Vento - IEEE access, 2018 - '
+ 'ieeexplore.ieee.org',
+ 'G Azzopardi, N Petkov - Frontiers in computational neuroscience, 2014 - '
+ 'frontiersin.org',
+ 'N Strisciuglio, G Azzopardi, M Vento… - International conference on …, 2015 '
+ '- Springer',
+ 'G Azzopardi, A Greco, M Vento - 2016 13th IEEE international …, 2016 - '
+ 'ieeexplore.ieee.org',
+ 'XY Gong, H Su, D Xu, ZT Zhang, F Shen… - International Journal of …, 2018 - '
+ 'Springer',
+ 'N Strisciuglio, M Vento, G Azzopardi… - … Vision and Medical …, 2015 - '
+ 'books.google.com',
+ 'MM Taylor, M Sedigh-Sarvestani… - Journal of …, 2018 - Soc Neuroscience',
+ 'Z Swiderska-Chadaj… - Diagnostic …, 2016 - diagnosticpathology.biomedcentral '
+ '…',
+ 'J Ma, P An, L Shen, K Li - Applied optics, 2017 - osapublishing.org',
+ 'B Gecer, S Aksoy, E Mercan, LG Shapiro, DL Weaver… - Pattern recognition, '
+ '2018 - Elsevier',
+ 'G Azzopardi, A Greco, A Saggese, M Vento - IEEE access, 2018 - '
+ 'ieeexplore.ieee.org',
+ 'DR Bruno, FS Osorio - 2017 Latin American Robotics …, 2017 - '
+ 'ieeexplore.ieee.org',
+ 'N Strisciuglio, G Azzopardi, N Petkov - International conference on …, 2017 '
+ '- Springer',
+ 'A Saggese, N Strisciuglio, M Vento, N Petkov - Pattern Recognition Letters, '
+ '2019 - Elsevier',
+ 'N Strisciuglio, G Azzopardi… - IEEE Transactions on …, 2019 - '
+ 'ieeexplore.ieee.org',
+ 'SA Badawi, MM Fraz - PeerJ, 2018 - peerj.com',
+ 'S Pei, F Tang, Y Ji, J Fan, Z Ning - 2018 IEEE 42nd Annual …, 2018 - '
+ 'ieeexplore.ieee.org',
+ 'M Lopez-Antequera, ML Vallina, N Strisciuglio… - IEEE …, 2019 - '
+ 'ieeexplore.ieee.org',
+ 'K Bayoudh, F Hamdaoui, A Mtibaa - Applied Intelligence, 2021 - Springer',
+ 'M Thoma - arXiv preprint arXiv:1602.06541, 2016 - arxiv.org',
+ 'G Azzopardi, N Petkov - Pattern Recognition Letters, 2013 - Elsevier',
+ 'HP Chiu, LP Kaelbling… - 2007 IEEE Conference …, 2007 - ieeexplore.ieee.org',
+ 'TA Qureshi, M Habib, A Hunter… - Proceedings of the 26th …, 2013 - '
+ 'ieeexplore.ieee.org',
+ 'H Hamad, D Tegolo, C Valenti - Image Analysis & Stereology, 2014 - '
+ 'ias-iss.org',
+ 'T Ahmad Qureshi, A Hunter… - Proceedings of the IEEE …, 2014 - '
+ 'cv-foundation.org',
+ 'S Balocco, C Gatta, M Alberti, X Carrillo, J Rigla… - Medical …, 2012 - '
+ 'Wiley Online Library',
+ 'MV Gwetu, JR Tapamo, S Viriri - South African Computer Journal, 2014 - '
+ 'journals.co.za',
+ 'NK El Abbadi, EH El Saadi - International Journal of Computer …, 2013 - '
+ 'researchgate.net',
+ 'MC Baker, AS Kerr, E Hames… - 2012 25th IEEE …, 2012 - ieeexplore.ieee.org',
+ 'M Raza, M Sharif, M Yasmin, MA Khan, T Saba… - Future Generation …, 2018 - '
+ 'Elsevier',
+ 'P Foggia, A Greco, G Percannella, M Vento… - Proceedings of the 2nd …, 2019 '
+ '- dl.acm.org',
+ 'A Greco, A Saggese, M Vento, V Vigilante - IEEE Access, 2020 - '
+ 'ieeexplore.ieee.org',
+ 'A Geetha, M Sundaram, B Vijayakumari - soft computing, 2019 - Springer',
+ 'JE Tapia, CA Perez - IEEE Access, 2019 - ieeexplore.ieee.org',
+ 'A Greco, A Roberto, A Saggese… - … on Systems, Man …, 2019 - '
+ 'ieeexplore.ieee.org',
+ 'A Patil, R Kruthi, S Gornale - … Journal of Image, Graphics and Signal …, '
+ '2019 - j.mecs-press.net',
+ 'G Azzopardi, P Foggia, A Greco… - 2018 24th …, 2018 - ieeexplore.ieee.org',
+ 'A Greco, A Saggese, M Vento - … on Metrology for Industry 4.0 & …, 2020 - '
+ 'ieeexplore.ieee.org',
+ 'A Greco, G Percannella, M Vento… - Machine Vision and …, 2020 - Springer',
+ 'XF Liu, XJ Jiang, SH Liu, CK Tse - IEEE Access, 2021 - ieeexplore.ieee.org',
+ 'E Badawi, GV Jourdan - IEEE Access, 2020 - ieeexplore.ieee.org',
+ 'D Sanz-Bas, C del Rosal, SL Náñez Alonso… - Laws, 2021 - mdpi.com',
+ 'MN Alam, D Sarma, FF Lima, I Saha… - … Conference on Smart …, 2020 - '
+ 'ieeexplore.ieee.org',
+ 'X Ao, Y Liu, Z Qin, Y Sun, Q He - World Wide Web, 2021 - Springer',
+ 'D Vassallo, V Vella, J Ellul - SN Computer Science, 2021 - Springer',
+ 'L Bian, L Zhang, K Zhao, H Wang, S Gong - IEEE Access, 2021 - '
+ 'ieeexplore.ieee.org',
+ 'DV Kute, B Pradhan, N Shukla, A Alamri - IEEE Access, 2021 - '
+ 'ieeexplore.ieee.org',
+ 'Y Zhang, W Yu, Z Li, S Raza… - IEEE Transactions on …, 2021 - '
+ 'ieeexplore.ieee.org',
+ 'H Aljihani, F Eassa, K Almarhabi, A Algarni… - Applied Sciences, 2021 - '
+ 'mdpi.com',
+ 'R Verschae, J Ruiz-del-Solar - Frontiers in Robotics and AI, 2015 - '
+ 'frontiersin.org',
+ 'B Gecer, G Azzopardi, N Petkov - Image and Vision Computing, 2017 - Elsevier',
+ 'G Azzopardi, A Greco, A Saggese, M Vento - IEEE access, 2018 - '
+ 'ieeexplore.ieee.org',
+ 'G Azzopardi, A Greco, M Vento - 2016 13th IEEE international …, 2016 - '
+ 'ieeexplore.ieee.org',
+ 'L Fernández-Robles, G Azzopardi, E Alegre… - Journal of Manufacturing …, '
+ '2017 - Elsevier',
+ 'AJ Rodríguez-Sánchez, M Fallah… - Frontiers in …, 2015 - frontiersin.org',
+ 'SA Badawi, MM Fraz - PeerJ, 2018 - peerj.com',
+ 'G Azzopardi, L Fernández-Robles… - 2016 23rd …, 2016 - ieeexplore.ieee.org',
+ 'M Felsberg, K Öfjäll, R Lenz - Frontiers in Robotics and AI, 2015 - '
+ 'frontiersin.org',
+ 'M Lopez-Antequera, ML Vallina, N Strisciuglio… - IEEE …, 2019 - '
+ 'ieeexplore.ieee.org',
+ 'P Drozdowski, C Rathgeb, A Dantcheva… - … on Technology and …, 2020 - '
+ 'ieeexplore.ieee.org',
+ 'B Gecer, G Azzopardi, N Petkov - Image and Vision Computing, 2017 - Elsevier',
+ 'G Azzopardi, A Greco, A Saggese, M Vento - IEEE access, 2018 - '
+ 'ieeexplore.ieee.org',
+ 'G Azzopardi, A Greco, A Saggese… - 2017 14th IEEE …, 2017 - '
+ 'ieeexplore.ieee.org',
+ 'V Carletti, A Greco, A Saggese, M Vento - Journal of Ambient Intelligence …, '
+ '2020 - Springer',
+ 'SD Thepade, D Abin - 2018 Fourth International Conference …, 2018 - '
+ 'ieeexplore.ieee.org',
+ 'P Foggia, A Greco, G Percannella, M Vento… - Proceedings of the 2nd …, 2019 '
+ '- dl.acm.org',
+ 'SA Badawi, MM Fraz - PeerJ, 2018 - peerj.com',
+ 'I Dagher, F Azar - Expert Systems, 2019 - Wiley Online Library',
+ 'A Greco, A Saggese, M Vento, V Vigilante - IEEE Access, 2020 - '
+ 'ieeexplore.ieee.org',
+ 'N Strisciuglio, G Azzopardi, M Vento… - Machine Vision and …, 2016 - '
+ 'Springer',
+ 'P Vostatek, E Claridge, H Uusitalo… - … Medical Imaging and …, 2017 - '
+ 'Elsevier',
+ 'F Farokhian, C Yang, H Demirel, S Wu… - Biocybernetics and …, 2017 - '
+ 'Elsevier',
+ 'FM Kashkooli, M Soltani, M Rezaeian… - Microvascular …, 2019 - Elsevier',
+ 'N Strisciuglio, N Petkov - 2017 International Conference and …, 2017 - '
+ 'ieeexplore.ieee.org',
+ 'N Strisciuglio, G Azzopardi, N Petkov - International conference on …, 2017 '
+ '- Springer',
+ 'A Saggese, N Strisciuglio, M Vento, N Petkov - Pattern Recognition Letters, '
+ '2019 - Elsevier',
+ 'N Strisciuglio, M Vento, N Petkov - International workshop on brain …, 2015 '
+ '- Springer',
+ 'N Strisciuglio, G Azzopardi… - IEEE Transactions on …, 2019 - '
+ 'ieeexplore.ieee.org',
+ 'KB Khan, AA Khaliq, M Shahid - J. Inf. Sci. Eng., 2017 - researchgate.net',
+ 'G Azzopardi, A Greco, A Saggese, M Vento - IEEE access, 2018 - '
+ 'ieeexplore.ieee.org',
+ 'G Azzopardi, A Greco, M Vento - 2016 13th IEEE international …, 2016 - '
+ 'ieeexplore.ieee.org',
+ 'DJA Rustia, CE Lin, JY Chung, YJ Zhuang… - Journal of Asia-Pacific …, 2020 - '
+ 'Elsevier',
+ 'Z Xie, Z Guo, C Qian - IET Computer Vision, 2018 - Wiley Online Library',
+ 'G Azzopardi, A Greco, A Saggese… - 2017 14th IEEE …, 2017 - '
+ 'ieeexplore.ieee.org',
+ 'V Carletti, A Greco, A Saggese, M Vento - Journal of Ambient Intelligence …, '
+ '2020 - Springer',
+ 'P Foggia, A Greco, G Percannella, M Vento… - Proceedings of the 2nd …, 2019 '
+ '- dl.acm.org',
+ 'SG Jung, J An, H Kwak, J Salminen… - Proceedings of 17th …, 2017 - '
+ 'core.ac.uk',
+ 'A Greco, A Saggese, M Vento, V Vigilante - IEEE Access, 2020 - '
+ 'ieeexplore.ieee.org',
+ 'N Whiskerd, J Dittmann… - 2018 26th European …, 2018 - ieeexplore.ieee.org',
+ 'N Strisciuglio, G Azzopardi, M Vento… - Machine Vision and …, 2016 - '
+ 'Springer',
+ 'Y Jiang, N Tan, T Peng, H Zhang - IEEE Access, 2019 - ieeexplore.ieee.org',
+ 'S Thangaraj, V Periyasamy, R Balaji - IET Image Processing, 2018 - '
+ 'ieeexplore.ieee.org',
+ 'TA Soomro, AJ Afifi, J Gao, O Hellwich, L Zheng… - Expert Systems with …, '
+ '2019 - Elsevier',
+ 'N Strisciuglio, N Petkov - 2017 International Conference and …, 2017 - '
+ 'ieeexplore.ieee.org',
+ 'N Strisciuglio, G Azzopardi, N Petkov - International conference on …, 2017 '
+ '- Springer',
+ 'A Saggese, N Strisciuglio, M Vento, N Petkov - Pattern Recognition Letters, '
+ '2019 - Elsevier',
+ 'D Adapa, AN Joseph Raj, SN Alisetti, Z Zhuang, G Naik - Plos one, 2020 - '
+ 'journals.plos.org',
+ 'N Strisciuglio, M Vento, N Petkov - Pattern recognition, 2019 - Elsevier',
+ 'N Strisciuglio, G Azzopardi… - IEEE Transactions on …, 2019 - '
+ 'ieeexplore.ieee.org',
+ 'MJ Al Nahian, T Ghosh, MH Al Banna, MA Aseeri… - IEEE …, 2021 - '
+ 'ieeexplore.ieee.org',
+ 'J Shi, D Chen, M Wang - Sensors, 2020 - mdpi.com',
+ 'J Gupta, N Gupta, M Kumar, R Duggal - 2020 - researchgate.net',
+ 'N Thakur, CY Han - Journal of Sensor and Actuator Networks, 2021 - mdpi.com',
+ 'A Sufian, C You, M Dong - 2021 55th Annual Conference on …, 2021 - '
+ 'ieeexplore.ieee.org',
+ 'U Mahbub, T Rahman, MAR Ahad - Contactless Human Activity …, 2021 - '
+ 'ncbi.nlm.nih.gov',
+ 'MA Choukou, A Polyvyana, Y Sakamoto… - European Review for …, 2021 - '
+ 'europeanreview.org',
+ 'N Thakur, CY Han - Data, 2021 - mdpi.com',
+ 'Z Chen, Y Wang, W Yang - arXiv preprint arXiv:2107.14633, 2021 - arxiv.org',
+ 'M Helmus, G Azzopardi, X Wang, E Talavera - 2021 - '
+ 'fse.studenttheses.ub.rug.nl',
+ 'L Fernández-Robles, G Azzopardi, E Alegre… - Robotics and Computer …, 2017 - '
+ 'Elsevier',
+ 'MT García-Ordás, E Alegre-Gutiérrez… - Mechanical systems and …, 2018 - '
+ 'Elsevier',
+ 'MT García-Ordás, E Alegre, V González-Castro… - … International Journal of '
+ '…, 2017 - Springer',
+ 'VG Gusev, AA Fomin - Procedia Engineering, 2017 - Elsevier',
+ 'AA Fomin - Solid State Phenomena, 2017 - Trans Tech Publ',
+ 'AA Fomin - 2017 International Conference on Industrial …, 2017 - '
+ 'ieeexplore.ieee.org',
+ 'L Fernández-Robles, G Azzopardi, E Alegre… - Journal of Manufacturing …, '
+ '2017 - Elsevier',
+ 'G Azzopardi, L Fernández-Robles… - 2016 23rd …, 2016 - ieeexplore.ieee.org',
+ 'L Fernandez Robles - University of Groningen, 2016 - research.rug.nl',
+ 'S Petrò, G Moroni - Nanomanufacturing and Metrology, 2020 - Springer',
+ 'A Saggese, N Strisciuglio, M Vento, N Petkov - Pattern Recognition Letters, '
+ '2019 - Elsevier',
+ 'N Strisciuglio, M Vento, N Petkov - Pattern recognition, 2019 - Elsevier',
+ 'N Strisciuglio, G Azzopardi… - IEEE Transactions on …, 2019 - '
+ 'ieeexplore.ieee.org',
+ 'A Chatterjee, YC Tsai - 2018 26th European Signal Processing …, 2018 - '
+ 'ieeexplore.ieee.org',
+ 'SA Badawi, MM Fraz - PeerJ, 2018 - peerj.com',
+ 'N Strisciuglio, G Azzopardi… - Proceedings of the …, 2018 - '
+ 'openaccess.thecvf.com',
+ 'S Ramachandran, N Strisciuglio, A Vinekar… - Neural Computing and …, 2020 - '
+ 'Springer',
+ 'Z Li, G Xu, Y Cheng, Z Wang… - Journal of Electronic …, 2019 - '
+ 'spiedigitallibrary.org',
+ 'Y Wang, Y Huang, W Huang - IEEE Access, 2019 - ieeexplore.ieee.org',
+ 'Z Li, G Xu, Y Cheng, Z Wang, Q Wu - IEEE Access, 2020 - ieeexplore.ieee.org',
+ 'J Lockl, V Schlatt, A Schweizer… - IEEE Transactions on …, 2020 - '
+ 'ieeexplore.ieee.org',
+ 'N Siegfried, T Rosenthal, A Benlian - Journal of Enterprise …, 2020 - '
+ 'emerald.com',
+ 'W Lin, X Huang, H Fang, V Wang, Y Hua, J Wang… - IEEE …, 2020 - '
+ 'ieeexplore.ieee.org',
+ 'HF Atlam, MA Azad, AG Alzahrani, G Wills - Big Data and Cognitive …, 2020 - '
+ 'mdpi.com',
+ 'L Andrade, C Lira, B Mello, A Andrade… - Proceedings of the 24th …, 2018 - '
+ 'dl.acm.org',
+ 'M Akhtaruzzaman, SR Kabir, R Haque… - … on poverty and …, 2018 - '
+ 'tiikmpublishing.com',
+ 'HMJ Almohri, LT Watson… - IEEE Transactions on …, 2020 - ieeexplore.ieee.org',
+ 'L Andrade, C Lira, B Mello, A Andrade… - Special Topics in …, 2020 - '
+ 'Springer',
+ 'Q Xu, X Chen, S Li, H Zhang… - 2020 IEEE 20th …, 2020 - ieeexplore.ieee.org',
+ 'B Yıldız - researchgate.net']

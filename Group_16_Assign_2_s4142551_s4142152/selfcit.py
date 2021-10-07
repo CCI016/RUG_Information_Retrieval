@@ -50,7 +50,7 @@ def search_button_command():
         "author_id": author_id,
         "num": "20",  #Number of return results after the search (SerpAPI max = 100)
         "start": 0,  #Result offset (0 = first page of results, 20 = second page, 40 = third and so on)
-        "api_key": "7bded33ae74eb4f9f7922a14a3e6b68ba00718d28f7176285a908146260b4582"  # Here input your OWN SerpAPI key
+        "api_key": "d8f4deea6b22a89028d133826443ad13e34f1cf3d3a105460bdc73057fb590a1"  # Here input your OWN SerpAPI key
     }
 
     search = GoogleSearch(serp_params)
@@ -84,7 +84,7 @@ def search_citationsID(scholar_author_name, titles, authors, years, citations, d
         params = {
             "engine": "google_scholar",
             "cites": cites_id,
-            "api_key": "7bded33ae74eb4f9f7922a14a3e6b68ba00718d28f7176285a908146260b4582"
+            "api_key": "d8f4deea6b22a89028d133826443ad13e34f1cf3d3a105460bdc73057fb590a1"
         }
         search = GoogleSearch(params)
         results = search.get_dict()
