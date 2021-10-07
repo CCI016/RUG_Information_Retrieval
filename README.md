@@ -2,6 +2,8 @@
 
 Our application runs on **Python**.
 
+## Assignment 2
+
 ## Packages used
 
 For this Project we will use Scholarly Package for Python
@@ -61,5 +63,75 @@ PART 3 (Self-citations of the author's articles) :
 And now by interval :
 
 ![assignment2_part3_interval](https://user-images.githubusercontent.com/61204251/135566732-053f2ab7-c8e4-40f8-a250-ae454c2b5c04.PNG)
+
+
+
+
+## Assignment 3
+## Packages Used
+For this assignment we will use GoogleSearch Package from SerpAPI https://serpapi.com/
+To install:
+```bash
+$ pip install google-search-results
+```
+Also we will use matplotlib package for plotting the graph which can be installed by theh following command
+```bash
+$ pip install matplotlib
+```
+
+## Report
+Our goal in this assignment is to quantitatively evaluate the web search results.
+
+In order to achieve this, we will evaluate 4 search algorithms that are : Google, Bing, DuckDuckGo and Yahoo.
+
+As the baseline for our evaluation we will take the search results obtained after using the engine Google, we have taken this decision as Google is the most popular searching engine nowadays, therefore we consider all the results from Google to be relevant for our query. Based on this relevant set, we will evaluate the remaining three search algorithms.
+
+Eventhough we have set the number of wanted results in SerpApi params to 20 by default, for some queries we do not obtain 20 results. For example, for the default query given in the SerpApi which is "Coffee" we have the following output : Length of Bing results  15 Length of DuckDuckGo results  20 Length of Yahoo results  5
+During the testing of our program we have used a lot of other queries, but most of the time the length of Bing and Yahoo results is under the estabilished argument (top_n).
+
+
+In our evaluation we will use the following metrics : 
+**Precision and recall** are the measures used in the information retrieval domain to measure how well an information retrieval system retrieves the relevant documents requested by a user. The measures are defined as follows:
+
+Precision  =  Total number of documents retrieved that are relevant/Total number of documents that are retrieved.
+
+Recall  =  Total number of documents retrieved that are relevant/Total number of relevant documents in the database.
+ 
+Also we will plot a graph of these 2 metrics.
+
+The **F-score Measure** is a way of combining the precision and recall of the model, and it is defined as the harmonic mean of the model’s precision and recall.
+
+The F-score is commonly used for evaluating information retrieval systems such as search engines
+
+However we went further with the query "Coffee" and we obtained the following results :
+
+**BING Search Algorithm**
+(6.666666666666667, 10.0)    -- (Precision, Recall) values
+P@5 for Bing is  6.666666666666667
+P@7 for Bing is  6.666666666666667
+F Measure for Bing is  30.0
+
+![BingCurve](https://user-images.githubusercontent.com/61204251/136451878-603d771a-88a4-4378-b8af-c7c1d5a245ce.PNG)
+
+**DuckDuckGo Search Algorithm**
+(15.0, 30.0)    -- (Precision, Recall) values
+P@5 for DuckDuckGo is  10.0
+P@7 for DuckDuckGo is  10.0
+F Measure for DuckDuckGo is  90.0
+
+![DuckDuckGoCurve](https://user-images.githubusercontent.com/61204251/136451892-df9c2421-7401-41d6-a9c6-ba09b2a21e7e.PNG)
+
+
+**Yahoo Search Algorithm**
+(40.0, 20.0)   -- (Precision, Recall) values
+P@5 for Yahoo is  40.0
+P@7 for Yahoo is  40.0
+F Measure for Yahoo is  60.0
+
+![YahooCurve](https://user-images.githubusercontent.com/61204251/136451903-a9fe01fd-8641-48e2-adce-a5994e03f730.PNG)
+
+
+By analyzing the results we came to the conclusion that for the query "Coffee" the DuckDuckGo is the seach engine that had the most similar links after performing the search on the query with the Google engine, which we consider to be the set of all relevant links. On the second place we have Yahoo, and last place is Bing. However it is important to mention that DuckDuckGo was always stable when retrieving from SerpApi the search results, but Yahoo and Bing give sometimes less results for the query, therefore it is safe to assume that if there were more results fetched after the SerpApi Yahoo Search we would observe this engine to be closer to the results given by Google.
+
 
 
