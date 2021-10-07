@@ -152,7 +152,6 @@ def main():
     yahoo_docs = search_results['yahoo']
 
     #Below our program will output one-by one the results and the Evaluation Metrics for the given search algorithhms
-
     print ("BING Search Algorithm")
     print(precision_recall(bing_docs, relevant_doc))
     print("P@5 for Bing is " , find_p_at_x(bing_docs, relevant_doc,5))
