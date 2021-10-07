@@ -106,27 +106,42 @@ The F-score is commonly used for evaluating information retrieval systems such a
 However we went further with the query "Coffee" and we obtained the following results :
 
 **BING Search Algorithm**
+
 (6.666666666666667, 10.0)    -- (Precision, Recall) values
+
 P@5 for Bing is  6.666666666666667
+
 P@7 for Bing is  6.666666666666667
+
 F Measure for Bing is  30.0
+
 
 ![BingCurve](https://user-images.githubusercontent.com/61204251/136451878-603d771a-88a4-4378-b8af-c7c1d5a245ce.PNG)
 
 **DuckDuckGo Search Algorithm**
+
 (15.0, 30.0)    -- (Precision, Recall) values
+
 P@5 for DuckDuckGo is  10.0
+
 P@7 for DuckDuckGo is  10.0
+
 F Measure for DuckDuckGo is  90.0
+
 
 ![DuckDuckGoCurve](https://user-images.githubusercontent.com/61204251/136451892-df9c2421-7401-41d6-a9c6-ba09b2a21e7e.PNG)
 
 
 **Yahoo Search Algorithm**
+
 (40.0, 20.0)   -- (Precision, Recall) values
+
 P@5 for Yahoo is  40.0
+
 P@7 for Yahoo is  40.0
+
 F Measure for Yahoo is  60.0
+
 
 ![YahooCurve](https://user-images.githubusercontent.com/61204251/136451903-a9fe01fd-8641-48e2-adce-a5994e03f730.PNG)
 
