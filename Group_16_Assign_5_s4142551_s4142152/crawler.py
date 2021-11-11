@@ -1,49 +1,69 @@
-import pathlib
+from urllib.request import urljoin
+from urllib.request import urlparse
 import requests
 from bs4 import BeautifulSoup
-import queue
+import networkx as nx
+import matplotlib.pyplot as plot
+  
+# We decided to split the links into two categories :
+# Links with the same domain and different domains : i.e cs.rug.nl is the domain we start crawling on, but rug.nl would be considered as another domain
+# This will make it more clear displaying the graph, we would see when the crawler is entering external links from the starting web page.
+G = nx.Graph()
+same_domain_urls = []
+diff_domain_urls = []
+starting_url = "http://www.cs.rug.nl/infosys" # The url we will begin to crawl on
+G.add_node(starting_url)
+depth = 2 # Value of the depth the algorithm must crawl on.
 
-def crawl_func(starting_anchor, url):
-    anchor_search = queue.Queue()
-    found_urls = []
-    while True:
-        if not starting_anchor:
-            starting_anchor = '/'
-        
-        response = requests.request('GET', url + starting_anchor)
-        soup = BeautifulSoup(response.text, "lxml")
-        anchors = local_anchors_search(starting_anchor, soup)
-        if anchors:
-            for a in anchors:
-                new_url = url + a
-                if new_url in found_urls:
-                    continue
-                if not pathlib.Path(a).suffix:
-                    anchor_search.put(a)
-                found_urls.append(new_url)
-                print(new_url)
 
-        if anchor_search.empty():
-            break
-        starting_anchor = anchor_search.get()
-        print(anchor_search.get())
-    return found_urls
+# Function to crawl the web page with the input url
+def crawler_func(starting_url):
+    html_docs = []
+    urls = []
+    starting_domain = urlparse(starting_url).netloc
+  
+    response = requests.get(starting_url).text
+    soup = BeautifulSoup(response, "lxml")
+    html_docs.append(soup)
+    G.add_node(soup)
+  
+    for anchor in soup.findAll("a"):
+        link = anchor.attrs.get("href")
 
-def local_anchors_search(starting_anchor, soup):
-    anchors = []
-    for link in soup.find_all('a'):
-        anchor = link.attrs["href"] if "href" in link.attrs else ''
-        print(starting_anchor)
-        if anchor.startswith(starting_anchor):
-            anchors.append(anchor)
-    return anchors
+	#URLs follow a specific format <scheme>://<netloc>/<path>;<params>?<query>#<fragment>
+	# Below we are parsing the link we extracted from the anchor after href attribute
+        if (link != ""):
+            link = urljoin(starting_url, link)
+            parsed_link = urlparse(link)
+            link = parsed_link.scheme
+            link += "://"
+            link += parsed_link.netloc
+            link += parsed_link.path
+            G.add_edge(soup, html_docs[len(html_docs) - 2])
 
-def main():
-    url = "http://www.cs.rug.nl/infosys" #http://www.cs.rug.nl/infosys
-    start_anchor = "/"
-    urls = crawl_func(start_anchor, url)
-    print(len(urls), urls)
+            if starting_domain not in link and link not in diff_domain_urls:
+                diff_domain_urls.append(link)
 
-if __name__ == "__main__":
-    main()
+            if starting_domain in link and link not in same_domain_urls:
+                same_domain_urls.append(link)
+                urls.append(link)
 
+    return urls
+  
+  
+# Traverse using BFS untill the goal depth is traversed.
+bfs_queue = []
+bfs_queue.append(starting_url)
+for j in range(depth):
+    for x in range(len(bfs_queue)):
+        url = bfs_queue.pop(0)
+        urls = crawler_func(url)
+        for i in urls:
+            bfs_queue.append(i)
+print("Links with the same domain : ")
+print(same_domain_urls)
+print("\n")
+print("Links with different domain : ")
+print(diff_domain_urls)
+nx.draw(G)
+plot.show()
